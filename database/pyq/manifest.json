@@ -1,0 +1,2949 @@
+[
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "folder_name": "Applied_Mathematics_I",
+  "papers": [
+   {
+    "file": "CSE_SEM1_Applied_Mathematics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "folder_name": "Applied_Physics_I",
+  "papers": [
+   {
+    "file": "CSE_SEM1_Applied_Physics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Applied_Physics_I_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Applied_Physics_I_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "CSE_SEM1_Communication_Skills_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "folder_name": "Electrical_Science",
+  "papers": [
+   {
+    "file": "CSE_SEM1_Electrical_Science_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Electrical_Science_2.pdf",
+    "exam_type": "end",
+    "year": null,
+    "month": null,
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Electrical_Science_3.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Electrical_Science_4.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "CSE_SEM1_Environmental_Studies_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "folder_name": "Manufacturing_Process",
+  "papers": [
+   {
+    "file": "CSE_SEM1_Manufacturing_Process_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "CSE_SEM1_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Programming_in_C_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Programming_in_C_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "folder_name": "Applied_Chemistry",
+  "papers": [
+   {
+    "file": "CSE_SEM2_Applied_Chemistry_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Applied_Chemistry_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "folder_name": "Applied_Mathematics_II",
+  "papers": [
+   {
+    "file": "CSE_SEM2_Applied_Mathematics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Applied_Mathematics_II_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "folder_name": "Applied_Physics_II",
+  "papers": [
+   {
+    "file": "CSE_SEM2_Applied_Physics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "CSE_SEM2_Applied_Physics_II_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Applied_Physics_II_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "CSE_SEM2_Communication_Skills_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "folder_name": "Engineering_Mechanics",
+  "papers": [
+   {
+    "file": "CSE_SEM2_Engineering_Mechanics_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "CSE_SEM2_Environmental_Studies_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "CSE_SEM2_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Programming_in_C_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Programming_in_C_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Programming_in_C_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Programming_in_C_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "folder_name": "Computational_Methods",
+  "papers": [
+   {
+    "file": "CSE_SEM3_Computational_Methods_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM3_Computational_Methods_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "folder_name": "Data_Structures",
+  "papers": [
+   {
+    "file": "CSE_SEM3_Data_Structures_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM3_Data_Structures_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "folder_name": "Discrete_Mathematics",
+  "papers": [
+   {
+    "file": "CSE_SEM3_Discrete_Mathematics_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM3_Discrete_Mathematics_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "folder_name": "Circuits_and_Systems",
+  "papers": [
+   {
+    "file": "CSE_SEM4_Circuits_and_Systems_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Circuits_and_Systems_2.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Circuits_and_Systems_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "folder_name": "Database_Management_Systems",
+  "papers": [
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_6.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_7.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "folder_name": "Probability_Statistics_Linear_Programming",
+  "papers": [
+   {
+    "file": "CSE_SEM4_Probability_Statistics_Linear_Programming_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "CSE_SEM4_Probability_Statistics_Linear_Programming_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Probability_Statistics_Linear_Programming_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Probability_Statistics_Linear_Programming_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Probability_Statistics_Linear_Programming_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "folder_name": "Programming_in_Java",
+  "papers": [
+   {
+    "file": "CSE_SEM4_Programming_in_Java_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "CSE_SEM4_Programming_in_Java_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Programming_in_Java_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Programming_in_Java_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "folder_name": "Theory_of_Computation",
+  "papers": [
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_3.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_6.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_7.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_8.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "folder_name": "Compiler_Design",
+  "papers": [
+   {
+    "file": "CSE_SEM5_Compiler_Design_1.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "folder_name": "Computer_Networks",
+  "papers": [
+   {
+    "file": "CSE_SEM5_Computer_Networks_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Computer_Networks_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "folder_name": "Economics_for_Engineers",
+  "papers": [
+   {
+    "file": "CSE_SEM5_Economics_for_Engineers_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "folder_name": "Operating_Systems",
+  "papers": [
+   {
+    "file": "CSE_SEM5_Operating_Systems_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Operating_Systems_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "folder_name": "Software_Engineering",
+  "papers": [
+   {
+    "file": "CSE_SEM5_Software_Engineering_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Software_Engineering_2.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Software_Engineering_3.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Software_Engineering_4.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "folder_name": "Principles_of_Management_for_Engineers",
+  "papers": [
+   {
+    "file": "CSE_SEM6_Principles_of_Management_for_Engineers_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Principles_of_Management_for_Engineers_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Principles_of_Management_for_Engineers_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "folder_name": "Programming_in_Python",
+  "papers": [
+   {
+    "file": "CSE_SEM6_Programming_in_Python_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Programming_in_Python_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Programming_in_Python_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "folder_name": "Statistics_Modelling_Data_Analytics",
+  "papers": [
+   {
+    "file": "CSE_SEM6_Statistics_Modelling_Data_Analytics_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Statistics_Modelling_Data_Analytics_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Statistics_Modelling_Data_Analytics_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Statistics_Modelling_Data_Analytics_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "folder_name": "Probability_Statistics_Linear_Programming",
+  "papers": [
+   {
+    "file": "IT_SEM4_Probability_Statistics_Linear_Programming_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "IT_SEM4_Probability_Statistics_Linear_Programming_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Probability_Statistics_Linear_Programming_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Probability_Statistics_Linear_Programming_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Probability_Statistics_Linear_Programming_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Probability_Statistics_Linear_Programming_6.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "folder_name": "Programming_in_Java",
+  "papers": [
+   {
+    "file": "IT_SEM4_Programming_in_Java_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "IT_SEM4_Programming_in_Java_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Programming_in_Java_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Programming_in_Java_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "folder_name": "Theory_of_Computation",
+  "papers": [
+   {
+    "file": "IT_SEM4_Theory_of_Computation_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_3.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_4.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_6.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_7.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_8.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_9.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "folder_name": "Compiler_Design",
+  "papers": [
+   {
+    "file": "IT_SEM5_Compiler_Design_1.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Compiler_Design_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "folder_name": "Computer_Networks",
+  "papers": [
+   {
+    "file": "IT_SEM5_Computer_Networks_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Computer_Networks_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Computer_Networks_3.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Computer_Networks_4.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Computer_Networks_5.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Feb",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "folder_name": "Economics_for_Engineers",
+  "papers": [
+   {
+    "file": "IT_SEM5_Economics_for_Engineers_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "folder_name": "Operating_Systems",
+  "papers": [
+   {
+    "file": "IT_SEM5_Operating_Systems_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Operating_Systems_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Operating_Systems_3.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "folder_name": "Software_Engineering",
+  "papers": [
+   {
+    "file": "IT_SEM5_Software_Engineering_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Software_Engineering_2.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Software_Engineering_3.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Software_Engineering_4.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "folder_name": "Database_Modelling_and_Design",
+  "papers": [
+   {
+    "file": "IT_SEM6_Database_Modelling_and_Design_1.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "folder_name": "Principles_of_Management_for_Engineers",
+  "papers": [
+   {
+    "file": "IT_SEM6_Principles_of_Management_for_Engineers_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Principles_of_Management_for_Engineers_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Principles_of_Management_for_Engineers_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "folder_name": "Programming_in_Python",
+  "papers": [
+   {
+    "file": "IT_SEM6_Programming_in_Python_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Programming_in_Python_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Programming_in_Python_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "folder_name": "Statistics_Modelling_Data_Analytics",
+  "papers": [
+   {
+    "file": "IT_SEM6_Statistics_Modelling_Data_Analytics_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Statistics_Modelling_Data_Analytics_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Statistics_Modelling_Data_Analytics_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Statistics_Modelling_Data_Analytics_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "folder_name": "Web_Technologies",
+  "papers": [
+   {
+    "file": "IT_SEM6_Web_Technologies_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Web_Technologies_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Web_Technologies_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "folder_name": "Web_Technologies",
+  "papers": [
+   {
+    "file": "CSE_SEM6_Web_Technologies_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Web_Technologies_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Web_Technologies_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "folder_name": "Applied_Mathematics_I",
+  "papers": [
+   {
+    "file": "ECE_SEM1_Applied_Mathematics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "folder_name": "Applied_Physics_I",
+  "papers": [
+   {
+    "file": "ECE_SEM1_Applied_Physics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Applied_Physics_I_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Applied_Physics_I_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "ECE_SEM1_Communication_Skills_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "folder_name": "Electrical_Science",
+  "papers": [
+   {
+    "file": "ECE_SEM1_Electrical_Science_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Electrical_Science_2.pdf",
+    "exam_type": "end",
+    "year": null,
+    "month": null,
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Electrical_Science_3.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Electrical_Science_4.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "ECE_SEM1_Environmental_Studies_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "folder_name": "Manufacturing_Process",
+  "papers": [
+   {
+    "file": "ECE_SEM1_Manufacturing_Process_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "ECE_SEM1_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Programming_in_C_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Programming_in_C_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "folder_name": "Applied_Chemistry",
+  "papers": [
+   {
+    "file": "ECE_SEM2_Applied_Chemistry_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Applied_Chemistry_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "folder_name": "Applied_Mathematics_II",
+  "papers": [
+   {
+    "file": "ECE_SEM2_Applied_Mathematics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Applied_Mathematics_II_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "folder_name": "Applied_Physics_II",
+  "papers": [
+   {
+    "file": "ECE_SEM2_Applied_Physics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "ECE_SEM2_Applied_Physics_II_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Applied_Physics_II_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "ECE_SEM2_Communication_Skills_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "folder_name": "Engineering_Mechanics",
+  "papers": [
+   {
+    "file": "ECE_SEM2_Engineering_Mechanics_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "ECE_SEM2_Environmental_Studies_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "ECE_SEM2_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Programming_in_C_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Programming_in_C_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Programming_in_C_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Programming_in_C_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "folder_name": "Analog_Communications",
+  "papers": [
+   {
+    "file": "ECE_SEM3_Analog_Communications_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Analog_Communications_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Analog_Communications_3.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "folder_name": "Analog_Electronics_I",
+  "papers": [
+   {
+    "file": "ECE_SEM3_Analog_Electronics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Analog_Electronics_I_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "folder_name": "Computational_Methods",
+  "papers": [
+   {
+    "file": "ECE_SEM3_Computational_Methods_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Computational_Methods_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "folder_name": "Signal_and_System",
+  "papers": [
+   {
+    "file": "ECE_SEM3_Signal_and_System_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Signal_and_System_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "folder_name": "Electromagnetic_Field_Theory",
+  "papers": [
+   {
+    "file": "ECE_SEM4_Electromagnetic_Field_Theory_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "folder_name": "Microprocessors_and_Microcontrollers",
+  "papers": [
+   {
+    "file": "ECE_SEM4_Microprocessors_and_Microcontrollers_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "folder_name": "Probability_Statistics_Linear_Programming",
+  "papers": [
+   {
+    "file": "ECE_SEM4_Probability_Statistics_Linear_Programming_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "ECE_SEM4_Probability_Statistics_Linear_Programming_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM4_Probability_Statistics_Linear_Programming_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM4_Probability_Statistics_Linear_Programming_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM4_Probability_Statistics_Linear_Programming_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "folder_name": "Data_Communication_and_Networking",
+  "papers": [
+   {
+    "file": "ECE_SEM5_Data_Communication_and_Networking_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "folder_name": "Digital_Signal_Processing",
+  "papers": [
+   {
+    "file": "ECE_SEM5_Digital_Signal_Processing_1.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "folder_name": "Economics_for_Engineers",
+  "papers": [
+   {
+    "file": "ECE_SEM5_Economics_for_Engineers_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "folder_name": "Microelectronics",
+  "papers": [
+   {
+    "file": "ECE_SEM5_Microelectronics_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 6,
+  "folder_name": "Cpp_Programming",
+  "papers": [
+   {
+    "file": "ECE_SEM6_Cpp_Programming_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 6,
+  "folder_name": "Data_Structures_and_Algorithms",
+  "papers": [
+   {
+    "file": "ECE_SEM6_Data_Structures_and_Algorithms_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 6,
+  "folder_name": "Mobile_Computing",
+  "papers": [
+   {
+    "file": "ECE_SEM6_Mobile_Computing_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Mobile_Computing_2.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Mobile_Computing_3.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Mobile_Computing_4.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Mobile_Computing_5.pdf",
+    "exam_type": "mid",
+    "year": null,
+    "month": null,
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Mobile_Computing_6.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": null,
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 6,
+  "folder_name": "Principles_of_Management_for_Engineers",
+  "papers": [
+   {
+    "file": "ECE_SEM6_Principles_of_Management_for_Engineers_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Principles_of_Management_for_Engineers_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Principles_of_Management_for_Engineers_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 7,
+  "folder_name": "Ad_Hoc_and_Sensor_Networks",
+  "papers": [
+   {
+    "file": "ECE_SEM7_Ad_Hoc_and_Sensor_Networks_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM7_Ad_Hoc_and_Sensor_Networks_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "ECE",
+  "semester": 7,
+  "folder_name": "Operating_Systems",
+  "papers": [
+   {
+    "file": "ECE_SEM7_Operating_Systems_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "ECE_SEM7_Operating_Systems_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "folder_name": "Applied_Mathematics_I",
+  "papers": [
+   {
+    "file": "EEE_SEM1_Applied_Mathematics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "folder_name": "Applied_Physics_I",
+  "papers": [
+   {
+    "file": "EEE_SEM1_Applied_Physics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Applied_Physics_I_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Applied_Physics_I_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "EEE_SEM1_Communication_Skills_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "folder_name": "Electrical_Science",
+  "papers": [
+   {
+    "file": "EEE_SEM1_Electrical_Science_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Electrical_Science_2.pdf",
+    "exam_type": "end",
+    "year": null,
+    "month": null,
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Electrical_Science_3.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Electrical_Science_4.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "EEE_SEM1_Environmental_Studies_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "folder_name": "Manufacturing_Process",
+  "papers": [
+   {
+    "file": "EEE_SEM1_Manufacturing_Process_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "EEE_SEM1_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Programming_in_C_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Programming_in_C_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "folder_name": "Applied_Chemistry",
+  "papers": [
+   {
+    "file": "EEE_SEM2_Applied_Chemistry_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Applied_Chemistry_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "folder_name": "Applied_Mathematics_II",
+  "papers": [
+   {
+    "file": "EEE_SEM2_Applied_Mathematics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Applied_Mathematics_II_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "folder_name": "Applied_Physics_II",
+  "papers": [
+   {
+    "file": "EEE_SEM2_Applied_Physics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "EEE_SEM2_Applied_Physics_II_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Applied_Physics_II_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "EEE_SEM2_Communication_Skills_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "folder_name": "Engineering_Mechanics",
+  "papers": [
+   {
+    "file": "EEE_SEM2_Engineering_Mechanics_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "EEE_SEM2_Environmental_Studies_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "EEE_SEM2_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Programming_in_C_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Programming_in_C_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Programming_in_C_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Programming_in_C_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "folder_name": "Computational_Methods",
+  "papers": [
+   {
+    "file": "EEE_SEM3_Computational_Methods_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM3_Computational_Methods_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "folder_name": "Electrical_Machines_I",
+  "papers": [
+   {
+    "file": "EEE_SEM3_Electrical_Machines_I_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM3_Electrical_Machines_I_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "folder_name": "Electrical_Materials",
+  "papers": [
+   {
+    "file": "EEE_SEM3_Electrical_Materials_1.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "folder_name": "Electromagnetic_Field_Theory",
+  "papers": [
+   {
+    "file": "EEE_SEM3_Electromagnetic_Field_Theory_1.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "folder_name": "Electronics_I",
+  "papers": [
+   {
+    "file": "EEE_SEM3_Electronics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM3_Electronics_I_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM3_Electronics_I_3.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 5,
+  "folder_name": "Economics_for_Engineers",
+  "papers": [
+   {
+    "file": "EEE_SEM5_Economics_for_Engineers_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 6,
+  "folder_name": "Cpp_Programming",
+  "papers": [
+   {
+    "file": "EEE_SEM6_Cpp_Programming_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 6,
+  "folder_name": "Data_Structures_and_Algorithms",
+  "papers": [
+   {
+    "file": "EEE_SEM6_Data_Structures_and_Algorithms_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 6,
+  "folder_name": "Principles_of_Management_for_Engineers",
+  "papers": [
+   {
+    "file": "EEE_SEM6_Principles_of_Management_for_Engineers_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM6_Principles_of_Management_for_Engineers_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM6_Principles_of_Management_for_Engineers_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "EEE",
+  "semester": 7,
+  "folder_name": "Operating_Systems",
+  "papers": [
+   {
+    "file": "EEE_SEM7_Operating_Systems_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "EEE_SEM7_Operating_Systems_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Apr",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "folder_name": "Applied_Mathematics_I",
+  "papers": [
+   {
+    "file": "IT_SEM1_Applied_Mathematics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Applied_Mathematics_I_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "folder_name": "Applied_Physics_I",
+  "papers": [
+   {
+    "file": "IT_SEM1_Applied_Physics_I_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Applied_Physics_I_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Applied_Physics_I_3.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Applied_Physics_I_4.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Applied_Physics_I_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "IT_SEM1_Communication_Skills_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Communication_Skills_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Feb",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "folder_name": "Electrical_Science",
+  "papers": [
+   {
+    "file": "IT_SEM1_Electrical_Science_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Electrical_Science_2.pdf",
+    "exam_type": "end",
+    "year": null,
+    "month": null,
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Electrical_Science_3.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Electrical_Science_4.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Electrical_Science_5.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "IT_SEM1_Environmental_Studies_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "folder_name": "Manufacturing_Process",
+  "papers": [
+   {
+    "file": "IT_SEM1_Manufacturing_Process_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Manufacturing_Process_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Manufacturing_Process_3.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "IT_SEM1_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Programming_in_C_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Programming_in_C_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "folder_name": "Applied_Chemistry",
+  "papers": [
+   {
+    "file": "IT_SEM2_Applied_Chemistry_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Chemistry_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Chemistry_3.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "folder_name": "Applied_Mathematics_II",
+  "papers": [
+   {
+    "file": "IT_SEM2_Applied_Mathematics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Mathematics_II_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Mathematics_II_3.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Mathematics_II_4.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "folder_name": "Applied_Physics_II",
+  "papers": [
+   {
+    "file": "IT_SEM2_Applied_Physics_II_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "IT_SEM2_Applied_Physics_II_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Physics_II_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Physics_II_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "folder_name": "Communication_Skills",
+  "papers": [
+   {
+    "file": "IT_SEM2_Communication_Skills_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Communication_Skills_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Communication_Skills_3.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Feb",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "folder_name": "Engineering_Mechanics",
+  "papers": [
+   {
+    "file": "IT_SEM2_Engineering_Mechanics_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "folder_name": "Environmental_Studies",
+  "papers": [
+   {
+    "file": "IT_SEM2_Environmental_Studies_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Environmental_Studies_2.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "folder_name": "Programming_in_C",
+  "papers": [
+   {
+    "file": "IT_SEM2_Programming_in_C_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Programming_in_C_2.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jun",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Programming_in_C_3.pdf",
+    "exam_type": "end",
+    "year": 2023,
+    "month": "Jul",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Programming_in_C_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Programming_in_C_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Programming_in_C_6.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "folder_name": "Computational_Methods",
+  "papers": [
+   {
+    "file": "IT_SEM3_Computational_Methods_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM3_Computational_Methods_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "folder_name": "Data_Structures",
+  "papers": [
+   {
+    "file": "IT_SEM3_Data_Structures_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM3_Data_Structures_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 2
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "folder_name": "Discrete_Mathematics",
+  "papers": [
+   {
+    "file": "IT_SEM3_Discrete_Mathematics_1.pdf",
+    "exam_type": "end",
+    "year": 2024,
+    "month": "Jan",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM3_Discrete_Mathematics_2.pdf",
+    "exam_type": "mid",
+    "year": 2022,
+    "month": "Nov",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "folder_name": "Circuits_and_Systems",
+  "papers": [
+   {
+    "file": "IT_SEM4_Circuits_and_Systems_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Circuits_and_Systems_2.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Circuits_and_Systems_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "folder_name": "Database_Management_Systems",
+  "papers": [
+   {
+    "file": "IT_SEM4_Database_Management_Systems_1.pdf",
+    "exam_type": "mid",
+    "year": 2024,
+    "month": "Apr",
+    "pages": 2
+   },
+   {
+    "file": "IT_SEM4_Database_Management_Systems_2.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Database_Management_Systems_3.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Database_Management_Systems_4.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Database_Management_Systems_5.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Database_Management_Systems_6.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Database_Management_Systems_7.pdf",
+    "exam_type": "mid",
+    "year": 2025,
+    "month": "Mar",
+    "pages": 1
+   }
+  ]
+ }
+]

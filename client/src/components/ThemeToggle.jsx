@@ -1,0 +1,29 @@
+// Light / dark switch. Starts from the system setting; once clicked, the choice is remembered in this browser.
+import { useState } from 'react';
+
+const current = () => document.documentElement.dataset.theme
+  || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
+export default function ThemeToggle() {
+  const [theme, setTheme] = useState(current);
+  const next = theme === 'dark' ? 'light' : 'dark';
+
+  const toggle = () => {
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem('cb_theme', next); } catch { /* private mode: still works for this visit */ }
+    setTheme(next);
+    window.dispatchEvent(new Event('themechange'));   // the background redraws in the new colours
+  };
+
+  return (
+    <button className="btn btn-ghost theme-toggle" onClick={toggle} aria-label={`Switch to ${next} mode`} title={`Switch to ${next} mode`}>
+      <svg className="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" />
+      </svg>
+      <svg className="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" />
+      </svg>
+    </button>
+  );
+}
