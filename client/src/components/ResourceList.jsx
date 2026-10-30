@@ -4,7 +4,7 @@ import { api } from '../api';
 import { useAuth } from '../context/AuthContext';
 import Spinner from './Spinner';
 import { botLinkForPaper } from '../utils/constants';
-
+//
 export default function ResourceList({ subjectId, kind, subject }) {
   const { role, canLike, tracksHistory } = useAuth();
   const [items, setItems] = useState([]);
@@ -102,7 +102,7 @@ export default function ResourceList({ subjectId, kind, subject }) {
                 <span className="heart">{item.liked_by_me ? '♥' : '♡'}</span> {item.likes}
               </button>
             )}
-            <a className="btn" href={item.download_url} onClick={() => track(item, 'open_paper')}>Download</a>
+            <a className="btn" href={getCleanUrl(item.download_url || item.file_url)} onClick={() => track(item, 'open_paper')}>Download</a>
             {kind === 'paper' && (
               <a
                 className="btn btn-primary"
