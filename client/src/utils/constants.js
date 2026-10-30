@@ -1,12 +1,20 @@
+export const BRANCHES = ['CSE', 'IT', 'ECE', 'EEE'];
+export const YEARS = [1, 2, 3, 4];
+export const UNIT_KEYS = ['I', 'II', 'III', 'IV', 'V'];
+
+// Year 1 = sem 1-2, Year 2 = sem 3-4, Year 3 = sem 5-6, Year 4 = sem 7.
+export const semestersOfYear = (year) => [year * 2 - 1, year * 2].filter((s) => s <= 7);
+
+export const BOT_URL = import.meta.env.VITE_BOT_URL || 'https://campusbrainchatbot.streamlit.app/';
+
+// Link that opens the AI bot with a paper preloaded.
 export const botLinkForPaper = (paperOrUrl, subject) => {
-  const BOT_URL = "https://campusbrainchatbot.streamlit.app/";
   const apiBase = import.meta.env.VITE_API_BASE || "https://examprep-29u3.onrender.com";
   
-  // Check if a string URL was passed directly or an object was passed
   const isString = typeof paperOrUrl === 'string';
   let rawFileUrl = isString ? paperOrUrl : (paperOrUrl?.file_url || paperOrUrl?.fileUrl || paperOrUrl?.url || '');
 
-  // Clean and ensure the URL points to your live Render backend instead of localhost
+  // Clean localhost/127.0.0.1 or relative paths and point them to your live Render backend
   let fileUrl = rawFileUrl;
   if (fileUrl.startsWith('http://localhost') || fileUrl.startsWith('http://127.0.0.1')) {
     fileUrl = fileUrl.replace(/http:\/\/(localhost|127\.0\.0\.1):\d+/, apiBase);
