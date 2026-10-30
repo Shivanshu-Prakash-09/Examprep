@@ -4,7 +4,23 @@ import { api } from '../api';
 import { useAuth } from '../context/AuthContext';
 import Spinner from './Spinner';
 import { botLinkForPaper } from '../utils/constants';
-//
+
+const getCleanUrl = (url) => {
+  if (!url) return '#';
+  const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+  const apiBase = isLocal 
+    ? 'http://localhost:10000' 
+    : (import.meta.env.VITE_API_BASE || 'https://examprep-29u3.onrender.com');
+
+  if (url.includes('localhost') || url.includes('127.0.0.1')) {
+    return url.replace(/http:\/\/(localhost|127\.0\.0\.1):\d+/, apiBase);
+  }
+  if (url.startsWith('/')) {
+    return `${apiBase}${url}`;
+  }
+  return url;
+};
+
 export default function ResourceList({ subjectId, kind, subject }) {
   const { role, canLike, tracksHistory } = useAuth();
   const [items, setItems] = useState([]);
@@ -102,7 +118,17 @@ export default function ResourceList({ subjectId, kind, subject }) {
                 <span className="heart">{item.liked_by_me ? '♥' : '♡'}</span> {item.likes}
               </button>
             )}
-            <a className="btn" href={getCleanUrl(item.download_url || item.file_url)} onClick={() => track(item, 'open_paper')}>Download</a>
+            
+            <a 
+              className="btn" 
+              href={getCleanUrl(item.download_url || item.file_url)} 
+              target="_blank" 
+              rel="noreferrer"
+              onClick={() => track(item, 'open_paper')}
+            >
+              Download
+            </a>
+            
             {kind === 'paper' && (
               <a
                 className="btn btn-primary"
