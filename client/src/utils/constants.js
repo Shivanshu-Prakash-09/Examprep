@@ -14,6 +14,7 @@ export const botLinkForPaper = (paperOrUrl, subject) => {
   const isString = typeof paperOrUrl === 'string';
   let rawFileUrl = isString ? paperOrUrl : (paperOrUrl?.file_url || paperOrUrl?.fileUrl || paperOrUrl?.url || '');
 
+  // Clean localhost/127.0.0.1 or relative paths and point them to your live Render backend
   let fileUrl = rawFileUrl;
   if (fileUrl.startsWith('http://localhost') || fileUrl.startsWith('http://127.0.0.1')) {
     fileUrl = fileUrl.replace(/http:\/\/(localhost|127\.0\.0\.1):\d+/, apiBase);

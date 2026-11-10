@@ -6,6 +6,7 @@ import { errorHandler, notFound } from './middleware/errorHandler.js';
 import routes from './routes/index.js';
 
 const app = express();
+app.set('trust proxy', 1);   // behind Render/other proxies: req.protocol becomes https
 app.use(cors({ origin: env.clientOrigin }));
 app.use(express.json({ limit: '1mb' }));
 app.use('/files', express.static(UPLOAD_DIR));   // uploaded papers/notes (opened by the AI bot)

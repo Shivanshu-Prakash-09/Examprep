@@ -7,7 +7,12 @@ import { env } from '../config/env.js';
 import { EXAM_TYPES, RESOURCE_KINDS } from '../utils/constants.js';
 import { HttpError } from '../utils/httpError.js';
 
-const present = (row, likedIds = new Set()) => ({
+// Public address used in file links. Uses PUBLIC_BASE_URL when it is set, otherwise the address
+// the request came in on (so links never point at localhost on a deployed server).
+const baseUrl = (req) =>
+  process.env.PUBLIC_BASE_URL ? env.publicBaseUrl : `${req.protocol}://${req.get('host')}`;
+
+const present = (row, likedIds = new Set(), base = env.publicBaseUrl) => ({
   id: row.id,
   title: row.title,
   kind: row.kind,
@@ -16,8 +21,8 @@ const present = (row, likedIds = new Set()) => ({
   created_at: row.created_at,
   likes: row.likes ?? 0,
   liked_by_me: likedIds.has(row.id),
-  file_url: `${env.publicBaseUrl}/files/${row.file_name}`,                // opened by "Ask with AI"
-  download_url: `${env.publicBaseUrl}/api/resources/${row.id}/download`,
+  file_url: `${base}/files/${row.file_name}`,                // opened by "Ask with AI"
+  download_url: `${base}/api/resources/${row.id}/download`,
 });
 
 const ORDER = {
@@ -42,7 +47,7 @@ export const listResources = (req, res) => {
   if (req.user) {
     liked = new Set(db.prepare('SELECT resource_id FROM likes WHERE user_email = ?').all(req.user.email).map((l) => l.resource_id));
   }
-  res.json(rows.map((r) => present(r, liked)));
+  res.json(rows.map((r) => present(r, liked, baseUrl(req))));
 };
 
 // POST /api/resources  (teacher, multipart/form-data, field "file")
@@ -65,7 +70,7 @@ export const createResource = (req, res) => {
     kind === 'paper' && paperYear ? Number(paperYear) : null,   // null = "unspecified"
     fileName
   );
-  res.status(201).json(present(db.prepare('SELECT *, 0 AS likes FROM resources WHERE id = ?').get(id)));
+  res.status(201).json(present(db.prepare('SELECT *, 0 AS likes FROM resources WHERE id = ?').get(id), undefined, baseUrl(req)));
 };
 
 // GET /api/resources/:id/download -> forces a download with the teacher's file name
@@ -94,7 +99,7 @@ export const updateResource = (req, res) => {
     }
   }
   db.prepare('UPDATE resources SET title = ?, exam_type = ?, paper_year = ? WHERE id = ?').run(title.trim(), exam, year, row.id);
-  res.json(present(db.prepare('SELECT r.*, (SELECT COUNT(*) FROM likes l WHERE l.resource_id = r.id) AS likes FROM resources r WHERE r.id = ?').get(row.id)));
+  res.json(present(db.prepare('SELECT r.*, (SELECT COUNT(*) FROM likes l WHERE l.resource_id = r.id) AS likes FROM resources r WHERE r.id = ?').get(row.id), undefined, baseUrl(req)));
 };
 
 // DELETE /api/resources/:id  (teacher)

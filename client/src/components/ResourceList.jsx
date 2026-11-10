@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import Spinner from './Spinner';
 import { botLinkForPaper } from '../utils/constants';
 
-export default function ResourceList({ subjectId, kind }) {
+export default function ResourceList({ subjectId, kind, subject }) {
   const { role, canLike, tracksHistory } = useAuth();
   const [items, setItems] = useState([]);
   const [sort, setSort] = useState('likes');
@@ -157,7 +157,7 @@ export default function ResourceList({ subjectId, kind }) {
             {kind === 'paper' && (
               <a
                 className="btn btn-primary"
-                href={botLinkForPaper(item.file_url)}
+                href={botLinkForPaper(item, subject)}
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => track(item, 'ask_ai')}

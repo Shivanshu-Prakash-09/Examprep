@@ -67,7 +67,7 @@ export default function SubjectPage() {
           {isTeacher && <AddUnit subjectId={id} existing={Object.keys(subject.units)} onChanged={setSubject} />}
         </div>
       )}
-      {tab !== 'syllabus' && <ResourceList key={tab} subjectId={id} kind={tab} />}
+      {tab !== 'syllabus' && <ResourceList key={tab} subjectId={id} kind={tab} subject={subject} />}
     </div>
   );
 }
