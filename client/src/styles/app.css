@@ -1,4 +1,4 @@
-/* Campus Brain: dark, minimal, one accent colour. */
+/* ExamPrep: dark, minimal, one accent colour. */
 :root {
   --bg: #07090d; --surface: rgba(255,255,255,.035); --surface-solid: #10131a; --text: #e9ecf1; --muted: #8791a3;
   --line: rgba(255,255,255,.09); --line-strong: rgba(255,255,255,.18);
@@ -158,3 +158,17 @@ input[type='file'] { padding: 9px; }
 .modal .tick { width: 48px; height: 48px; border-radius: 50%; border: 1.5px solid var(--accent); color: var(--accent); font-size: 1.4rem; display: grid; place-items: center; }
 @keyframes fade { from { opacity: 0; } }
 @keyframes pop-in { from { opacity: 0; transform: scale(.9) translateY(10px); } }
+
+/* ===== Teacher: edit / delete ===== */
+.btn-sm { padding: 6px 12px; font-size: .8rem; border-radius: 6px; }
+.btn-current { color: var(--accent); background: var(--surface); }
+.meta-action { margin-left: auto; }
+.unit-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.unit-actions { display: flex; gap: 8px; position: relative; z-index: 1; }
+.unit textarea { width: 100%; resize: vertical; line-height: 1.6; }
+.unit.is-editing, .resource-edit { border-color: var(--accent); }
+.row-end { display: flex; justify-content: flex-end; gap: 8px; }
+.resource-edit { margin: 14px 0; }
+.resource-edit input, .resource-edit select { width: 100%; }
+.edit-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 520px) { .edit-row { grid-template-columns: 1fr; } .meta-action { margin-left: 0; } }

@@ -1,5 +1,7 @@
 import { randomUUID } from 'node:crypto';
-import { db, toSubject } from '../config/db.js';
+import { existsSync, unlinkSync } from 'node:fs';
+import path from 'node:path';
+import { UPLOAD_DIR, db, toSubject } from '../config/db.js';
 import { matchByName, matchBySyllabus } from '../services/matchService.js';
 import { BRANCHES, MAX_SEMESTER, yearOfSemester } from '../utils/constants.js';
 import { HttpError } from '../utils/httpError.js';
@@ -71,4 +73,51 @@ export const createSubject = (req, res) => {
     throw err;
   }
   res.status(201).json(db.prepare(`SELECT ${LIST_COLUMNS} FROM subjects WHERE id = ?`).get(id));
+};
+
+// ---- teacher-only edits ----
+const loadSubjectRow = (id) => {
+  const row = db.prepare('SELECT * FROM subjects WHERE id = ?').get(id);
+  if (!row) throw new HttpError(404, 'Subject not found');
+  return row;
+};
+const saveUnits = (id, units) => {
+  db.prepare('UPDATE subjects SET units = ? WHERE id = ?').run(JSON.stringify(units), id);
+  return toSubject(loadSubjectRow(id));
+};
+const cleanUnitKey = (raw) => {
+  const key = String(raw ?? '').trim();
+  if (!/^[\w .-]{1,12}$/.test(key)) throw new HttpError(400, 'Unit name must be 1 to 12 letters or numbers, like "IV"');
+  return key;
+};
+
+// PUT /api/subjects/:id/units/:unit  (teacher)  { text }  -> edits that unit, or adds it if it is new
+export const saveUnit = (req, res) => {
+  const row = loadSubjectRow(req.params.id);
+  const key = cleanUnitKey(req.params.unit);
+  const text = String(req.body?.text ?? '').trim();
+  if (!text) throw new HttpError(400, 'The unit syllabus cannot be empty. Use Delete unit to remove it.');
+  const units = { ...toSubject(row).units, [key]: text };
+  res.json(saveUnits(row.id, units));
+};
+
+// DELETE /api/subjects/:id/units/:unit  (teacher)
+export const deleteUnit = (req, res) => {
+  const row = loadSubjectRow(req.params.id);
+  const units = { ...toSubject(row).units };
+  if (!(req.params.unit in units)) throw new HttpError(404, 'Unit not found');
+  delete units[req.params.unit];
+  res.json(saveUnits(row.id, units));
+};
+
+// DELETE /api/subjects/:id  (teacher) -> removes the subject, its papers/notes (and their files), likes and history
+export const deleteSubject = (req, res) => {
+  const row = loadSubjectRow(req.params.id);
+  const files = db.prepare('SELECT file_name FROM resources WHERE subject_id = ?').all(row.id);
+  db.prepare('DELETE FROM subjects WHERE id = ?').run(row.id);   // ON DELETE CASCADE clears resources, likes, history
+  for (const { file_name } of files) {
+    const file = path.join(UPLOAD_DIR, file_name);
+    if (existsSync(file)) unlinkSync(file);
+  }
+  res.status(204).end();
 };

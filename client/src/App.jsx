@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/" element={<LoginPage />} />                       {/* Slide -1 */}
         <Route path="/student" element={<StudentLoginPage />} />         {/* Slide 2B */}
 
-        <Route element={<RequireRole roles={['student', 'guest']} />}>
+        <Route element={<RequireRole roles={['student', 'guest', 'teacher']} />}>
           <Route path="/browse" element={<BrowsePage />} />              {/* Slide 3B */}
           <Route path="/subjects" element={<SubjectListPage />} />       {/* Slide 4B / 4B-2 */}
           <Route path="/subjects/:id" element={<SubjectPage />} />       {/* Slide 5B */}

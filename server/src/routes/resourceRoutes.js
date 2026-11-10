@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import multer from 'multer';
-import { createResource, deleteResource, downloadResource, toggleLike } from '../controllers/resourceController.js';
+import { createResource, deleteResource, downloadResource, toggleLike, updateResource } from '../controllers/resourceController.js';
 import { requireStudent, requireTeacher } from '../middleware/auth.js';
 import { asyncHandler as h } from '../utils/asyncHandler.js';
 import { HttpError } from '../utils/httpError.js';
@@ -18,6 +18,7 @@ const upload = multer({
 const router = Router();
 router.post('/', requireTeacher, upload.single('file'), h(createResource));
 router.get('/:id/download', h(downloadResource));
+router.patch('/:id', requireTeacher, h(updateResource));
 router.delete('/:id', requireTeacher, h(deleteResource));
 router.post('/:id/like', requireStudent, h(toggleLike));
 export default router;

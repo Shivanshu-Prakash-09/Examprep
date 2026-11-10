@@ -53,8 +53,6 @@ export const createResource = (req, res) => {
   if (!RESOURCE_KINDS.includes(kind)) throw new HttpError(400, 'Choose notes or paper');
   if (!title?.trim()) throw new HttpError(400, 'Please give the file a name');
   if (kind === 'paper' && !EXAM_TYPES.includes(examType)) throw new HttpError(400, 'Choose mid-term or end-term');
-  // The AI bot only reads PDFs, so papers must be PDFs (notes can be PDF/image/DOCX).
-  if (kind === 'paper' && req.file.mimetype !== 'application/pdf') throw new HttpError(400, 'Papers must be uploaded as PDF');
 
   const ext = path.extname(req.file.originalname).toLowerCase().replace(/[^.\w]/g, '');
   const id = randomUUID();
@@ -75,6 +73,28 @@ export const downloadResource = (req, res) => {
   const row = db.prepare('SELECT * FROM resources WHERE id = ?').get(req.params.id);
   if (!row) throw new HttpError(404, 'File not found');
   res.download(path.join(UPLOAD_DIR, row.file_name), `${row.title}${path.extname(row.file_name)}`);
+};
+
+// PATCH /api/resources/:id  (teacher)  { title, examType?, paperYear? }  -> fixes a wrong name / type / year
+export const updateResource = (req, res) => {
+  const row = db.prepare('SELECT * FROM resources WHERE id = ?').get(req.params.id);
+  if (!row) throw new HttpError(404, 'Resource not found');
+  const { title, examType, paperYear } = req.body || {};
+  if (!title?.trim()) throw new HttpError(400, 'Please give the file a name');
+
+  let exam = row.exam_type, year = row.paper_year;
+  if (row.kind === 'paper') {
+    if (examType !== undefined) {
+      if (examType && !EXAM_TYPES.includes(examType)) throw new HttpError(400, 'Choose mid-term or end-term');
+      exam = examType || null;
+    }
+    if (paperYear !== undefined) {
+      year = paperYear === '' || paperYear === null ? null : Number(paperYear);
+      if (year !== null && !(Number.isInteger(year) && year >= 2000 && year <= 2100)) throw new HttpError(400, 'Enter a valid year, like 2024');
+    }
+  }
+  db.prepare('UPDATE resources SET title = ?, exam_type = ?, paper_year = ? WHERE id = ?').run(title.trim(), exam, year, row.id);
+  res.json(present(db.prepare('SELECT r.*, (SELECT COUNT(*) FROM likes l WHERE l.resource_id = r.id) AS likes FROM resources r WHERE r.id = ?').get(row.id)));
 };
 
 // DELETE /api/resources/:id  (teacher)

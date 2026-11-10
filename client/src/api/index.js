@@ -16,9 +16,13 @@ export const api = {
   matchSyllabus: (syllabus, branch, semester) => http('/subjects/match', { method: 'POST', body: { syllabus, branch, semester } }),
   getSubject: (id) => http(`/subjects/${id}`),
   createSubject: (data) => http('/subjects', { method: 'POST', body: data }),
+  deleteSubject: (id) => http(`/subjects/${id}`, { method: 'DELETE' }),
+  saveUnit: (id, unit, text) => http(`/subjects/${id}/units/${encodeURIComponent(unit)}`, { method: 'PUT', body: { text } }),
+  deleteUnit: (id, unit) => http(`/subjects/${id}/units/${encodeURIComponent(unit)}`, { method: 'DELETE' }),
 
   listResources: (subjectId, filters) => http(`/subjects/${subjectId}/resources${qs(filters)}`),
   uploadResource: (formData) => http('/resources', { method: 'POST', form: formData }),
+  updateResource: (id, data) => http(`/resources/${id}`, { method: 'PATCH', body: data }),
   deleteResource: (id) => http(`/resources/${id}`, { method: 'DELETE' }),
   toggleLike: (id) => http(`/resources/${id}/like`, { method: 'POST' }),
 

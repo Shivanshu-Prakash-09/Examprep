@@ -1,7 +1,7 @@
 {
   "name": "campus-brain",
   "private": true,
-  "description": "Campus Brain: PYQs, notes and syllabus for CSE/IT/ECE/EEE with an AI study bot",
+  "description": "ExamPrep: PYQs, notes and syllabus for CSE/IT/ECE/EEE with an AI study bot",
   "scripts": {
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
     "dev": "concurrently -n server,client -c blue,green \"npm --prefix server run dev\" \"npm --prefix client run dev\"",

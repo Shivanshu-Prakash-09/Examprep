@@ -5,29 +5,16 @@ import { useAuth } from '../context/AuthContext';
 import Spinner from './Spinner';
 import { botLinkForPaper } from '../utils/constants';
 
-const getCleanUrl = (url) => {
-  if (!url) return '#';
-  const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-  const apiBase = isLocal 
-    ? 'http://localhost:10000' 
-    : (import.meta.env.VITE_API_BASE || 'https://examprep-29u3.onrender.com');
-
-  if (url.includes('localhost') || url.includes('127.0.0.1')) {
-    return url.replace(/http:\/\/(localhost|127\.0\.0\.1):\d+/, apiBase);
-  }
-  if (url.startsWith('/')) {
-    return `${apiBase}${url}`;
-  }
-  return url;
-};
-
-export default function ResourceList({ subjectId, kind, subject }) {
+export default function ResourceList({ subjectId, kind }) {
   const { role, canLike, tracksHistory } = useAuth();
   const [items, setItems] = useState([]);
   const [sort, setSort] = useState('likes');
   const [examType, setExamType] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
+  const [editId, setEditId] = useState(null);   // which row a teacher is editing
+  const [draft, setDraft] = useState({});
+  const [saving, setSaving] = useState(false);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -57,9 +44,33 @@ export default function ResourceList({ subjectId, kind, subject }) {
   };
 
   const remove = async (item) => {
-    if (!window.confirm(`Delete "${item.title}"?`)) return;
-    await api.deleteResource(item.id);
-    load();
+    if (!window.confirm(`Delete "${item.title}"? The file and its likes will be removed.`)) return;
+    try {
+      await api.deleteResource(item.id);
+      load();
+    } catch (e) {
+      setError(e.message);
+    }
+  };
+
+  const startEdit = (item) => {
+    setError('');
+    setEditId(item.id);
+    setDraft({ title: item.title, examType: item.exam_type || '', paperYear: item.paper_year ?? '' });
+  };
+
+  const saveEdit = async (e) => {
+    e.preventDefault();
+    setSaving(true); setError('');
+    try {
+      const updated = await api.updateResource(editId, draft);
+      setItems((list) => list.map((r) => (r.id === editId ? updated : r)));
+      setEditId(null);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setSaving(false);
+    }
   };
 
   return (
@@ -89,7 +100,31 @@ export default function ResourceList({ subjectId, kind, subject }) {
         <div className="empty">Nothing uploaded here yet.</div>
       )}
 
-      {items.map((item, i) => (
+      {items.map((item, i) => (editId === item.id ? (
+        <form className="card resource-edit form" key={item.id} onSubmit={saveEdit}>
+          <label>Name
+            <input value={draft.title} onChange={(e) => setDraft({ ...draft, title: e.target.value })} required autoFocus />
+          </label>
+          {kind === 'paper' && (
+            <div className="edit-row">
+              <label>Type
+                <select value={draft.examType} onChange={(e) => setDraft({ ...draft, examType: e.target.value })}>
+                  <option value="">Not known</option>
+                  <option value="mid">Mid-term</option>
+                  <option value="end">End-term</option>
+                </select>
+              </label>
+              <label>Year
+                <input type="number" min="2000" max="2100" placeholder="2024" value={draft.paperYear} onChange={(e) => setDraft({ ...draft, paperYear: e.target.value })} />
+              </label>
+            </div>
+          )}
+          <div className="row-end">
+            <button type="button" className="btn btn-sm" onClick={() => setEditId(null)}>Cancel</button>
+            <button className="btn btn-sm btn-primary" disabled={saving || !draft.title.trim()}>{saving ? 'Saving...' : 'Save changes'}</button>
+          </div>
+        </form>
+      ) : (
         <div className="card resource" key={item.id} style={{ animationDelay: `${Math.min(i, 10) * 50}ms` }}>
           <div className="resource-title">
             <div className="file-icon">{kind === 'paper' ? 'PYQ' : 'NTS'}</div>
@@ -98,7 +133,7 @@ export default function ResourceList({ subjectId, kind, subject }) {
               <div className="meta">
                 {kind === 'paper' ? (
                   <>
-                    <span className={`tag tag-${item.exam_type}`}>{item.exam_type === 'mid' ? 'Mid-term' : 'End-term'}</span>
+                    {item.exam_type && <span className={`tag tag-${item.exam_type}`}>{item.exam_type === 'mid' ? 'Mid-term' : 'End-term'}</span>}
                     <span>{item.paper_year ?? 'Year unspecified'}</span>
                   </>
                 ) : (
@@ -118,21 +153,11 @@ export default function ResourceList({ subjectId, kind, subject }) {
                 <span className="heart">{item.liked_by_me ? '♥' : '♡'}</span> {item.likes}
               </button>
             )}
-            
-            <a 
-              className="btn" 
-              href={getCleanUrl(item.download_url || item.file_url)} 
-              target="_blank" 
-              rel="noreferrer"
-              onClick={() => track(item, 'open_paper')}
-            >
-              Download
-            </a>
-            
+            <a className="btn" href={item.download_url} onClick={() => track(item, 'open_paper')}>Download</a>
             {kind === 'paper' && (
               <a
                 className="btn btn-primary"
-                href={botLinkForPaper(item, subject)}
+                href={botLinkForPaper(item.file_url)}
                 target="_blank"
                 rel="noreferrer"
                 onClick={() => track(item, 'ask_ai')}
@@ -140,10 +165,15 @@ export default function ResourceList({ subjectId, kind, subject }) {
                 Ask with AI ↗
               </a>
             )}
-            {role === 'teacher' && <button className="btn btn-danger" onClick={() => remove(item)}>Delete</button>}
+            {role === 'teacher' && (
+              <>
+                <button className="btn" onClick={() => startEdit(item)}>Edit</button>
+                <button className="btn btn-danger" onClick={() => remove(item)}>Delete</button>
+              </>
+            )}
           </div>
         </div>
-      ))}
+      )))}
       {!canLike && kind === 'paper' && role !== 'teacher' && (
         <p className="muted">Guests can't like papers. Log in with Gmail to like and to save your history.</p>
       )}

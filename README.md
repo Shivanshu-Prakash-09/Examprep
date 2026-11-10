@@ -1,4 +1,4 @@
-# Campus Brain
+# ExamPrep
 
 A web app where students find **previous-year papers (PYQs), notes and the unit-wise syllabus** for their subjects (CSE, IT, ECE, EEE; semesters 1-7), and can open any paper in an external **AI study bot**.
 
@@ -24,7 +24,7 @@ Open **http://localhost:5173**
 - **Teacher login:** username `faculty`, password `faculty123` (change in `server/.env`, see below)
 - **Student:** click "Join as student", then type any `name@gmail.com` address, or continue as guest.
 
-On the first start the database file is created and **165 subjects with their syllabus are loaded automatically**. Nothing else to set up.
+On the first start the database file is created, **165 subjects with their syllabus are loaded**, and **all previous-year papers from `database/pyq/` are imported automatically** (about 290 papers, each with its exam type and year). Nothing else to set up.
 
 ### Try it in 2 minutes
 1. Log in as teacher -> **Upload paper / notes** -> pick CSE, Year 1, Semester 1, subject "Programming in 'C'" -> upload any PDF.
@@ -73,13 +73,19 @@ campus-brain/
 | add an API endpoint | route in `server/src/routes/`, logic in `server/src/controllers/` |
 | change DB tables | `server/src/config/db.js` |
 | change how subjects are matched | `server/src/services/matchService.js` |
-| change the AI bot link | `client/.env` (`VITE_BOT_URL`) |
+| change the AI bot link | `client/.env` (`VITE_BOT_URL`, `VITE_BOT_PARAM`) |
+
+## Previous-year papers (bulk import)
+- `database/pyq/files/` holds one PDF per paper (split from the merged subject PDFs), and `database/pyq/manifest.json` lists each one with its branch, semester, subject name, mid/end term and year (read from the scanned papers with OCR).
+- Imported automatically on the first start. To re-run it later (already-imported papers are skipped): `npm --prefix server run import:pyq` (add `-- --dry-run` to only preview). It writes `server/import-report.csv`.
+- Papers whose subject was missing from the syllabus data were added as new subjects with an empty syllabus (IT: Database Modelling and Design; ECE: C++ Programming, Data Structures and Algorithms, Mobile Computing; EEE: C++ Programming, Data Structures and Algorithms). Teachers can fill their syllabus later.
+- `docs/PYQ_IMPORT_REPORT.csv` shows where every paper went. Exam type/year come from OCR, so a few may need a glance (delete and re-upload from the admin page if wrong).
 
 ## Settings (optional)
 Copy `server/.env.example` to `server/.env` to change the teacher username/password, the secret used for login tokens, or the ports. Without a `.env`, the defaults in `server/src/config/env.js` are used.
 
 ## Resetting the data
-Stop the server and delete the folder `server/data/`. On the next start the database is recreated with the original syllabus, and all uploads/likes are gone.
+Stop the server and delete the folder `server/data/`. On the next start the database is recreated with the original syllabus and the previous-year papers are imported again; teacher uploads and likes are gone.
 
 ---
 

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Campus Brain REST API (Express + built-in SQLite, no external services)",
+  "description": "ExamPrep REST API (Express + built-in SQLite, no external services)",
   "engines": {
     "node": ">=22.5"
   },

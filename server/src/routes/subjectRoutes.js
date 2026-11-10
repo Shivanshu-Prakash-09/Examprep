@@ -11,4 +11,7 @@ router.post('/match', h(subjects.matchSyllabus));
 router.post('/', requireTeacher, h(subjects.createSubject));
 router.get('/:id', h(subjects.getSubject));
 router.get('/:subjectId/resources', optionalStudent, h(listResources));
+router.put('/:id/units/:unit', requireTeacher, h(subjects.saveUnit));
+router.delete('/:id/units/:unit', requireTeacher, h(subjects.deleteUnit));
+router.delete('/:id', requireTeacher, h(subjects.deleteSubject));
 export default router;
