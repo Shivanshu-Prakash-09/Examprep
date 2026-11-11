@@ -134,7 +134,7 @@ export default function ResourceList({ subjectId, kind, subject }) {
                 {kind === 'paper' ? (
                   <>
                     {item.exam_type && <span className={`tag tag-${item.exam_type}`}>{item.exam_type === 'mid' ? 'Mid-term' : 'End-term'}</span>}
-                    <span>{item.paper_year ?? 'Year unspecified'}</span>
+                    <span>{item.paper_year ?? (item.title.startsWith('Full Previous') ? 'All years' : 'Year unspecified')}</span>
                   </>
                 ) : (
                   <span>Notes</span>

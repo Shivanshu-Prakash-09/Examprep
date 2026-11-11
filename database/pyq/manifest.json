@@ -38,6 +38,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Applied_Physics_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -87,6 +96,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Electrical_Science_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -143,6 +161,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM1_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -164,6 +191,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Applied_Chemistry_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -185,6 +221,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Applied_Mathematics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -213,6 +258,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Applied_Physics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -297,6 +351,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM2_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -318,6 +381,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM3_Computational_Methods_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -339,6 +411,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM3_Data_Structures_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -360,6 +441,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM3_Discrete_Mathematics_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -388,6 +478,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Circuits_and_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -444,6 +543,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Database_Management_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 8
    }
   ]
  },
@@ -486,6 +594,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Probability_Statistics_Linear_Programming_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 6
    }
   ]
  },
@@ -521,6 +638,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Programming_in_Java_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -584,6 +710,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM4_Theory_of_Computation_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 8
    }
   ]
  },
@@ -619,6 +754,15 @@
     "year": 2024,
     "month": "Jan",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Computer_Networks_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -654,6 +798,15 @@
     "year": 2022,
     "month": "Apr",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Operating_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -689,6 +842,15 @@
     "year": 2022,
     "month": "Apr",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM5_Software_Engineering_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -717,6 +879,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Principles_of_Management_for_Engineers_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -745,6 +916,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Programming_in_Python_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -780,6 +960,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Statistics_Modelling_Data_Analytics_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -829,6 +1018,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Probability_Statistics_Linear_Programming_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 7
    }
   ]
  },
@@ -864,6 +1062,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Programming_in_Java_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -934,6 +1141,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Theory_of_Computation_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 9
    }
   ]
  },
@@ -955,6 +1171,15 @@
     "year": 2022,
     "month": "Apr",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Compiler_Design_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -997,6 +1222,15 @@
     "year": 2023,
     "month": "Feb",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Computer_Networks_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -1039,6 +1273,15 @@
     "year": 2022,
     "month": "Apr",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Operating_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1074,6 +1317,15 @@
     "year": 2022,
     "month": "Apr",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM5_Software_Engineering_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -1116,6 +1368,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Principles_of_Management_for_Engineers_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1144,6 +1405,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Programming_in_Python_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1179,6 +1449,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Statistics_Modelling_Data_Analytics_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -1207,6 +1486,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM6_Web_Technologies_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1235,6 +1523,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "CSE_SEM6_Web_Technologies_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1277,6 +1574,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Applied_Physics_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1326,6 +1632,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Electrical_Science_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -1382,6 +1697,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM1_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1403,6 +1727,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Applied_Chemistry_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -1424,6 +1757,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Applied_Mathematics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -1452,6 +1794,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Applied_Physics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -1536,6 +1887,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM2_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -1564,6 +1924,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Analog_Communications_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1585,6 +1954,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Analog_Electronics_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -1606,6 +1984,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Computational_Methods_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -1627,6 +2014,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM3_Signal_and_System_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -1697,6 +2093,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM4_Probability_Statistics_Linear_Programming_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 6
    }
   ]
  },
@@ -1830,6 +2235,15 @@
     "year": 2023,
     "month": null,
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Mobile_Computing_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 6
    }
   ]
  },
@@ -1858,6 +2272,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM6_Principles_of_Management_for_Engineers_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1879,6 +2302,15 @@
     "year": 2023,
     "month": "Jul",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM7_Ad_Hoc_and_Sensor_Networks_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -1900,6 +2332,15 @@
     "year": 2022,
     "month": "Apr",
     "pages": 1
+   },
+   {
+    "file": "ECE_SEM7_Operating_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -1942,6 +2383,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Applied_Physics_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -1991,6 +2441,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Electrical_Science_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -2047,6 +2506,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM1_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2068,6 +2536,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Applied_Chemistry_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2089,6 +2566,15 @@
     "year": 2024,
     "month": "Jun",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Applied_Mathematics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2117,6 +2603,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Applied_Physics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -2201,6 +2696,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM2_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -2222,6 +2726,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM3_Computational_Methods_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2243,6 +2756,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM3_Electrical_Machines_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2299,6 +2821,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM3_Electronics_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2369,6 +2900,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM6_Principles_of_Management_for_Engineers_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2390,6 +2930,15 @@
     "year": 2022,
     "month": "Apr",
     "pages": 1
+   },
+   {
+    "file": "EEE_SEM7_Operating_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2411,6 +2960,15 @@
     "year": 2023,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Applied_Mathematics_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2453,6 +3011,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Applied_Physics_I_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -2474,6 +3041,15 @@
     "year": 2023,
     "month": "Feb",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Communication_Skills_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2516,6 +3092,15 @@
     "year": 2023,
     "month": "Jul",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Electrical_Science_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -2558,6 +3143,15 @@
     "year": 2023,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Manufacturing_Process_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2586,6 +3180,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM1_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2614,6 +3217,15 @@
     "year": 2023,
     "month": "Jul",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Chemistry_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2649,6 +3261,15 @@
     "year": 2023,
     "month": "Jul",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Mathematics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 4
    }
   ]
  },
@@ -2684,6 +3305,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Applied_Physics_II_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 5
    }
   ]
  },
@@ -2712,6 +3342,15 @@
     "year": 2023,
     "month": "Feb",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Communication_Skills_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2747,6 +3386,15 @@
     "year": 2023,
     "month": "Jul",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Environmental_Studies_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2796,6 +3444,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM2_Programming_in_C_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 6
    }
   ]
  },
@@ -2817,6 +3474,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM3_Computational_Methods_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2838,6 +3504,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 2
+   },
+   {
+    "file": "IT_SEM3_Data_Structures_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2859,6 +3534,15 @@
     "year": 2022,
     "month": "Nov",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM3_Discrete_Mathematics_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 2
    }
   ]
  },
@@ -2887,6 +3571,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Circuits_and_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 3
    }
   ]
  },
@@ -2943,6 +3636,15 @@
     "year": 2025,
     "month": "Mar",
     "pages": 1
+   },
+   {
+    "file": "IT_SEM4_Database_Management_Systems_FULL.pdf",
+    "exam_type": null,
+    "year": null,
+    "month": null,
+    "title": "Full Previous Years (all papers merged)",
+    "merged": true,
+    "pages": 8
    }
   ]
  }

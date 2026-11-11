@@ -28,6 +28,7 @@ const prettyName = (folderName) =>
   folderName.replace(/_/g, ' ').replace(/\bCpp\b/g, 'C++').replace(/\bAnd\b/g, 'and').replace(/\bfor\b/gi, 'for').trim();
 
 const title = (p) => {
+  if (p.title) return p.title;                       // e.g. the merged "Full Previous Years" PDF
   const type = p.exam_type === 'mid' ? 'Mid Term' : p.exam_type === 'end' ? 'End Term' : 'Paper';
   return [type, p.month, p.year].filter(Boolean).join(' ') + (p.year ? '' : ' (year not known)');
 };
@@ -38,7 +39,9 @@ const sha = (file) => createHash('sha256').update(readFileSync(file)).digest('he
  * @param {{db, uploadDir, pyqDir, apply?: boolean, log?: Function}} o
  * @returns rows describing what happened to every paper (for the report)
  */
-export function importPyq({ db, uploadDir, pyqDir, apply = true, log = () => {} }) {
+// mergedOnly: only add the merged "Full Previous Years" PDFs, only to subjects that already exist
+// (used on every start so an existing database gets them without a reset; never creates subjects).
+export function importPyq({ db, uploadDir, pyqDir, apply = true, mergedOnly = false, log = () => {} }) {
   const manifestPath = path.join(pyqDir, 'manifest.json');
   if (!existsSync(manifestPath)) return [];
   const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
@@ -53,9 +56,11 @@ export function importPyq({ db, uploadDir, pyqDir, apply = true, log = () => {} 
   const existingFiles = db.prepare("SELECT title, file_name FROM resources WHERE subject_id = ? AND kind = 'paper'");
 
   const report = [];
+  let missing = 0;
   if (apply) db.exec('BEGIN');
   try {
     for (const entry of manifest) {
+      if (mergedOnly && !entry.papers.some((p) => p.merged)) continue;
       // ---- 1. which subject? ----
       const pool = subjects.filter((s) => s.branch === entry.branch);
       const ranked = pool
@@ -69,6 +74,8 @@ export function importPyq({ db, uploadDir, pyqDir, apply = true, log = () => {} 
       if (confident) {
         subject = best.s;
         how = best.s.semester === entry.semester ? 'matched' : `matched (folder SEM${entry.semester}, subject SEM${best.s.semester})`;
+      } else if (mergedOnly) {
+        continue;                                  // subject not in the database: leave it alone
       } else {
         const name = prettyName(entry.folder_name);
         subject = subjects.find((s) => s.branch === entry.branch && s.semester === entry.semester && s.name === name);
@@ -86,7 +93,14 @@ export function importPyq({ db, uploadDir, pyqDir, apply = true, log = () => {} 
       const hashes = new Set([...have.keys()].map((f) => path.join(uploadDir, f)).filter(existsSync).map(sha));
       const titles = new Set(have.values());
       for (const p of entry.papers) {
+        if (mergedOnly && !p.merged) continue;
         const src = path.join(pyqDir, 'files', p.file);
+        if (!existsSync(src)) {   // papers zip not extracted into database/pyq/files/ -> warn, don't crash
+          missing++;
+          report.push({ branch: entry.branch, folder_sem: entry.semester, file: p.file, subject: subject.name,
+            subject_sem: subject.semester, subject_how: how, exam_type: p.exam_type, year: p.year, result: 'FILE MISSING' });
+          continue;
+        }
         let result = 'imported';
         const h = sha(src);
         if (hashes.has(h)) result = 'already imported';
@@ -111,6 +125,10 @@ export function importPyq({ db, uploadDir, pyqDir, apply = true, log = () => {} 
     throw err;
   }
   const done = report.filter((r) => r.result === 'imported').length;
-  log(`[pyq] ${apply ? 'Imported' : 'Would import'} ${done} papers (${report.length} in the data folder).`);
+  if (!mergedOnly || done) log(`[pyq] ${apply ? 'Imported' : 'Would import'} ${done} papers (${report.length} in the data folder).`);
+  if (missing) {
+    log(`[pyq] WARNING: ${missing} paper file(s) not found in ${path.join(pyqDir, 'files')}.`);
+    log('[pyq] Extract all the "papers" zips into campus-brain/database/pyq/files/, delete server/data/ and start again.');
+  }
   return report;
 }

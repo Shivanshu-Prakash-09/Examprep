@@ -80,6 +80,9 @@ if (n === 0 && existsSync(SEED_FILE)) {
 // ---- first-run previous-year papers (database/pyq) ----
 if (db.prepare('SELECT COUNT(*) AS n FROM resources').get().n === 0) {
   importPyq({ db, uploadDir: UPLOAD_DIR, pyqDir: PYQ_DIR, log: console.log });
+} else {
+  // existing database: add the merged "Full Previous Years" PDFs if they are not there yet (safe to repeat)
+  importPyq({ db, uploadDir: UPLOAD_DIR, pyqDir: PYQ_DIR, mergedOnly: true, log: console.log });
 }
 
 // Converts a raw subjects row into an API object (parses the JSON columns).
