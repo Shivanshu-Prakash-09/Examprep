@@ -1,0 +1,842 @@
+[
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "subject": "Analog Communications",
+  "file": "analog_communication.pdf",
+  "title": "Analog Communication - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "subject": "Analog Electronics - I",
+  "file": "analog_electronics_i.pdf",
+  "title": "Analog Electronics I - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "subject": "Electronics - I",
+  "file": "analog_electronics_i.pdf",
+  "title": "Analog Electronics I - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "subject": "Analog Electronics - II",
+  "file": "analog_electronics_ii.pdf",
+  "title": "Analog Electronics II - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 4,
+  "subject": "Electronics - II",
+  "file": "analog_electronics_ii.pdf",
+  "title": "Analog Electronics II - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "subject": "Analog Communications",
+  "file": "analog_and_digital_communications.pdf",
+  "title": "Analog and Digital Communications - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "subject": "Digital Communications",
+  "file": "analog_and_digital_communications.pdf",
+  "title": "Analog and Digital Communications - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "subject": "Applied Mathematics - I",
+  "file": "applied_mathematics_i.pdf",
+  "title": "Applied Mathematics I - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "subject": "Applied Mathematics - I",
+  "file": "applied_mathematics_i.pdf",
+  "title": "Applied Mathematics I - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "subject": "Applied Mathematics - I",
+  "file": "applied_mathematics_i.pdf",
+  "title": "Applied Mathematics I - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "subject": "Applied Mathematics - I",
+  "file": "applied_mathematics_i.pdf",
+  "title": "Applied Mathematics I - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "subject": "Applied Mathematics - II",
+  "file": "applied_mathematics_ii.pdf",
+  "title": "Applied Mathematics II - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "subject": "Applied Mathematics - II",
+  "file": "applied_mathematics_ii.pdf",
+  "title": "Applied Mathematics II - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "subject": "Applied Mathematics - II",
+  "file": "applied_mathematics_ii.pdf",
+  "title": "Applied Mathematics II - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "subject": "Applied Mathematics - II",
+  "file": "applied_mathematics_ii.pdf",
+  "title": "Applied Mathematics II - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "subject": "Applied Physics - I",
+  "file": "applied_physics_i.pdf",
+  "title": "Applied Physics I - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "subject": "Applied Physics - I",
+  "file": "applied_physics_i.pdf",
+  "title": "Applied Physics I - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "subject": "Applied Physics - I",
+  "file": "applied_physics_i.pdf",
+  "title": "Applied Physics I - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "subject": "Applied Physics - I",
+  "file": "applied_physics_i.pdf",
+  "title": "Applied Physics I - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "subject": "Applied Physics - II",
+  "file": "applied_physics_ii.pdf",
+  "title": "Applied Physics II - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "subject": "Applied Physics - II",
+  "file": "applied_physics_ii.pdf",
+  "title": "Applied Physics II - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "subject": "Applied Physics - II",
+  "file": "applied_physics_ii.pdf",
+  "title": "Applied Physics II - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "subject": "Applied Physics - II",
+  "file": "applied_physics_ii.pdf",
+  "title": "Applied Physics II - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "subject": "Artificial Intelligence and Machine Learning",
+  "file": "artificial_intelligence_and_machine_learning.pdf",
+  "title": "Artificial Intelligence and Machine Learning - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "subject": "Artificial Intelligence and Machine Learning",
+  "file": "artificial_intelligence_and_machine_learning.pdf",
+  "title": "Artificial Intelligence and Machine Learning - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "subject": "Circuits and Systems",
+  "file": "circuits_and_systems.pdf",
+  "title": "Circuits and Systems - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "subject": "Circuits and Systems",
+  "file": "circuits_and_systems.pdf",
+  "title": "Circuits and Systems - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "subject": "Communication Skills",
+  "file": "communication_skills.pdf",
+  "title": "Communication Skills - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "subject": "Communication Skills",
+  "file": "communication_skills.pdf",
+  "title": "Communication Skills - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "subject": "Communication Skills",
+  "file": "communication_skills.pdf",
+  "title": "Communication Skills - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "subject": "Communication Skills",
+  "file": "communication_skills.pdf",
+  "title": "Communication Skills - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "subject": "Compiler Design",
+  "file": "compiler_design.pdf",
+  "title": "Compiler Design - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "subject": "Compiler Design",
+  "file": "compiler_design.pdf",
+  "title": "Compiler Design - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "subject": "Computational Methods",
+  "file": "computational_methods.pdf",
+  "title": "Computational Methods - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "subject": "Computational Methods",
+  "file": "computational_methods.pdf",
+  "title": "Computational Methods - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "subject": "Computational Methods",
+  "file": "computational_methods.pdf",
+  "title": "Computational Methods - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "subject": "Computational Methods",
+  "file": "computational_methods.pdf",
+  "title": "Computational Methods - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "subject": "Computer Networks",
+  "file": "computer_networks.pdf",
+  "title": "Computer Networks - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "subject": "Data Communication and Networking",
+  "file": "data_communication_and_networking.pdf",
+  "title": "Data Communication and Networking - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "subject": "Data Structures",
+  "file": "data_structures.pdf",
+  "title": "Data Structures - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "subject": "Data Structures",
+  "file": "data_structures.pdf",
+  "title": "Data Structures - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "subject": "Database Management Systems",
+  "file": "database_management_system.pdf",
+  "title": "Database Management System - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "subject": "Database Management Systems",
+  "file": "database_management_system.pdf",
+  "title": "Database Management System - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 7,
+  "subject": "Introduction to Database Management Systems",
+  "file": "database_management_system.pdf",
+  "title": "Database Management System - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 7,
+  "subject": "Introduction to Database Management Systems",
+  "file": "database_management_system.pdf",
+  "title": "Database Management System - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "subject": "Database Modelling and Design",
+  "file": "database_modelling_and_design.pdf",
+  "title": "Database Modelling and Design - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "subject": "Design and Analysis of Algorithm",
+  "file": "design_analysis_and_algorithms.pdf",
+  "title": "Design Analysis and Algorithms - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "subject": "Design and Analysis of Algorithm",
+  "file": "design_analysis_and_algorithms.pdf",
+  "title": "Design Analysis and Algorithms - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "subject": "Digital Logic and Computer Design",
+  "file": "digital_logic_and_circuit_design.pdf",
+  "title": "Digital Logic and Circuit Design - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "subject": "Digital Logic and Computer Design",
+  "file": "digital_logic_and_circuit_design.pdf",
+  "title": "Digital Logic and Circuit Design - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "subject": "Digital Logic and Computer Design",
+  "file": "digital_logic_and_circuit_design.pdf",
+  "title": "Digital Logic and Circuit Design - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "subject": "Digital Signal Processing",
+  "file": "digital_signal_processing.pdf",
+  "title": "Digital Signal Processing - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "subject": "Discrete Mathematics",
+  "file": "discrete_mathematics.pdf",
+  "title": "Discrete Mathematics - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "subject": "Discrete Mathematics",
+  "file": "discrete_mathematics.pdf",
+  "title": "Discrete Mathematics - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "subject": "Economics for Engineers",
+  "file": "economics_for_engineers.pdf",
+  "title": "Economics for Engineers - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "subject": "Economics for Engineers",
+  "file": "economics_for_engineers.pdf",
+  "title": "Economics for Engineers - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "subject": "Economics for Engineers",
+  "file": "economics_for_engineers.pdf",
+  "title": "Economics for Engineers - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 5,
+  "subject": "Economics for Engineers",
+  "file": "economics_for_engineers.pdf",
+  "title": "Economics for Engineers - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "subject": "Electrical Machines - I",
+  "file": "electrical_machines_i.pdf",
+  "title": "Electrical Machines I - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 4,
+  "subject": "Electrical Machine - II",
+  "file": "electrical_machines_ii.pdf",
+  "title": "Electrical Machines II - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "subject": "Electrical Materials",
+  "file": "electrical_materials.pdf",
+  "title": "Electrical Materials - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 2,
+  "subject": "Electrical Science",
+  "file": "electrical_science.pdf",
+  "title": "Electrical Science - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "subject": "Electrical Science",
+  "file": "electrical_science.pdf",
+  "title": "Electrical Science - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 2,
+  "subject": "Electrical Science",
+  "file": "electrical_science.pdf",
+  "title": "Electrical Science - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "subject": "Electrical Science",
+  "file": "electrical_science.pdf",
+  "title": "Electrical Science - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 5,
+  "subject": "Electrical and Electronics Measuring Instruments",
+  "file": "electrical_and_electronics_measuring_instruments.pdf",
+  "title": "Electrical and Electronics Measuring Instruments - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "subject": "Electromagnetic Field Theory",
+  "file": "electromagnetic_fields_theory.pdf",
+  "title": "Electromagnetic Fields Theory - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "subject": "Electromagnetic Field Theory",
+  "file": "electromagnetic_fields_theory.pdf",
+  "title": "Electromagnetic Fields Theory - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "subject": "Environmental Studies",
+  "file": "environmental_science.pdf",
+  "title": "Environmental Science - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "subject": "Environmental Studies",
+  "file": "environmental_science.pdf",
+  "title": "Environmental Science - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "subject": "Environmental Studies",
+  "file": "environmental_science.pdf",
+  "title": "Environmental Science - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "subject": "Environmental Studies",
+  "file": "environmental_science.pdf",
+  "title": "Environmental Science - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "subject": "Introduction to Control Systems",
+  "file": "introduction_to_control_systems.pdf",
+  "title": "Introduction to Control Systems - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 5,
+  "subject": "Introduction to Control Systems",
+  "file": "introduction_to_control_systems.pdf",
+  "title": "Introduction to Control Systems - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "subject": "Manufacturing Process",
+  "file": "manufacturing_processes.pdf",
+  "title": "Manufacturing Processes - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 1,
+  "subject": "Manufacturing Process",
+  "file": "manufacturing_processes.pdf",
+  "title": "Manufacturing Processes - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "subject": "Manufacturing Process",
+  "file": "manufacturing_processes.pdf",
+  "title": "Manufacturing Processes - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 1,
+  "subject": "Manufacturing Process",
+  "file": "manufacturing_processes.pdf",
+  "title": "Manufacturing Processes - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "subject": "Microelectronics",
+  "file": "micro_electronics.pdf",
+  "title": "Micro Electronics - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "subject": "Microprocessors and Microcontrollers",
+  "file": "microprocessors_and_microcontrollers.pdf",
+  "title": "Microprocessors and Microcontrollers - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 5,
+  "subject": "Microprocessors and Microcontrollers",
+  "file": "microprocessors_and_microcontrollers.pdf",
+  "title": "Microprocessors and Microcontrollers - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 3,
+  "subject": "Object-Oriented Programming Using C++",
+  "file": "object_oriented_programming.pdf",
+  "title": "Object Oriented Programming - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 3,
+  "subject": "Object-Oriented Programming Using C++",
+  "file": "object_oriented_programming.pdf",
+  "title": "Object Oriented Programming - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "subject": "Operating Systems",
+  "file": "operating_systems.pdf",
+  "title": "Operating Systems - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "subject": "Operating Systems",
+  "file": "operating_systems.pdf",
+  "title": "Operating Systems - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 7,
+  "subject": "Operating Systems",
+  "file": "operating_systems.pdf",
+  "title": "Operating Systems - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 7,
+  "subject": "Operating Systems",
+  "file": "operating_systems.pdf",
+  "title": "Operating Systems - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 5,
+  "subject": "Power Electronics",
+  "file": "power_electronics.pdf",
+  "title": "Power Electronics - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 4,
+  "subject": "Power Systems - I",
+  "file": "power_systems_i.pdf",
+  "title": "Power Systems I - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 7,
+  "subject": "Principles of Entrepreneurship Mindset",
+  "file": "principles_of_entrepreneurship_mindset.pdf",
+  "title": "Principles of Entrepreneurship Mindset - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 7,
+  "subject": "Principles of Entrepreneurship Mindset",
+  "file": "principles_of_entrepreneurship_mindset.pdf",
+  "title": "Principles of Entrepreneurship Mindset - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 7,
+  "subject": "Principles of Entrepreneurship Mindset",
+  "file": "principles_of_entrepreneurship_mindset.pdf",
+  "title": "Principles of Entrepreneurship Mindset - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 7,
+  "subject": "Principles of Entrepreneurship Mindset",
+  "file": "principles_of_entrepreneurship_mindset.pdf",
+  "title": "Principles of Entrepreneurship Mindset - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "subject": "Principles of Management for Engineers",
+  "file": "principles_of_management_for_engineers.pdf",
+  "title": "Principles of Management for Engineers - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "subject": "Principles of Management for Engineers",
+  "file": "principles_of_management_for_engineers.pdf",
+  "title": "Principles of Management for Engineers - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 6,
+  "subject": "Principles of Management for Engineers",
+  "file": "principles_of_management_for_engineers.pdf",
+  "title": "Principles of Management for Engineers - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 6,
+  "subject": "Principles of Management for Engineers",
+  "file": "principles_of_management_for_engineers.pdf",
+  "title": "Principles of Management for Engineers - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "subject": "Programming in Java",
+  "file": "programming_in_java.pdf",
+  "title": "Programming in Java - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "subject": "Programming in Java",
+  "file": "programming_in_java.pdf",
+  "title": "Programming in Java - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "subject": "Programming in Python",
+  "file": "programming_in_python.pdf",
+  "title": "Programming in Python - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "subject": "Programming in Python",
+  "file": "programming_in_python.pdf",
+  "title": "Programming in Python - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 3,
+  "subject": "Signal and System",
+  "file": "signal_and_systems.pdf",
+  "title": "Signal and Systems - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 3,
+  "subject": "Signals and Systems",
+  "file": "signal_and_systems.pdf",
+  "title": "Signal and Systems - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 5,
+  "subject": "Software Engineering",
+  "file": "software_engineering.pdf",
+  "title": "Software Engineering - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 5,
+  "subject": "Software Engineering",
+  "file": "software_engineering.pdf",
+  "title": "Software Engineering - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "subject": "Statistics, Statistical Modelling & Data Analytics",
+  "file": "statistics_statistical_modelling_data_analytics.pdf",
+  "title": "Statistics, Statistical Modelling & Data Analytics - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "subject": "Statistics, Statistical Modelling & Data Analytics",
+  "file": "statistics_statistical_modelling_data_analytics.pdf",
+  "title": "Statistics, Statistical Modelling & Data Analytics - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "subject": "Theory of Computation",
+  "file": "theory_of_computation.pdf",
+  "title": "Theory of Computation - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "subject": "Theory of Computation",
+  "file": "theory_of_computation.pdf",
+  "title": "Theory of Computation - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 5,
+  "subject": "Transmission Lines, Waveguides and Antenna Design",
+  "file": "transmission_lines_waveguides_and_antenna.pdf",
+  "title": "Transmission Lines, Waveguides And Antenna - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 6,
+  "subject": "Web Technologies",
+  "file": "web_technologies.pdf",
+  "title": "Web Technologies - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 6,
+  "subject": "Web Technologies",
+  "file": "web_technologies.pdf",
+  "title": "Web Technologies - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 4,
+  "subject": "Probability, Statistics and Linear Programming",
+  "file": "probability_statistics_and_linear_programming.pdf",
+  "title": "Probability Statistics And Linear Programming - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 4,
+  "subject": "Probability, Statistics and Linear Programming",
+  "file": "probability_statistics_and_linear_programming.pdf",
+  "title": "Probability Statistics And Linear Programming - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 4,
+  "subject": "Probability, Statistics and Linear Programming",
+  "file": "probability_statistics_and_linear_programming.pdf",
+  "title": "Probability Statistics And Linear Programming - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 4,
+  "subject": "Probability, Statistics and Linear Programming",
+  "file": "probability_statistics_and_linear_programming.pdf",
+  "title": "Probability Statistics And Linear Programming - Notes"
+ },
+ {
+  "branch": "CSE",
+  "semester": 1,
+  "subject": "Programming in 'C'",
+  "file": "programming_in_c.pdf",
+  "title": "Programming In C - Notes"
+ },
+ {
+  "branch": "IT",
+  "semester": 2,
+  "subject": "Programming in 'C'",
+  "file": "programming_in_c.pdf",
+  "title": "Programming In C - Notes"
+ },
+ {
+  "branch": "ECE",
+  "semester": 1,
+  "subject": "Programming in 'C'",
+  "file": "programming_in_c.pdf",
+  "title": "Programming In C - Notes"
+ },
+ {
+  "branch": "EEE",
+  "semester": 2,
+  "subject": "Programming in 'C'",
+  "file": "programming_in_c.pdf",
+  "title": "Programming In C - Notes"
+ }
+]

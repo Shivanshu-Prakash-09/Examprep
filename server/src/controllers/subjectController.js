@@ -116,6 +116,7 @@ export const deleteSubject = (req, res) => {
   const files = db.prepare('SELECT file_name FROM resources WHERE subject_id = ?').all(row.id);
   db.prepare('DELETE FROM subjects WHERE id = ?').run(row.id);   // ON DELETE CASCADE clears resources, likes, history
   for (const { file_name } of files) {
+    if (db.prepare('SELECT 1 FROM resources WHERE file_name = ?').get(file_name)) continue;   // still used by another subject
     const file = path.join(UPLOAD_DIR, file_name);
     if (existsSync(file)) unlinkSync(file);
   }

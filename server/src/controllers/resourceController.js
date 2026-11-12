@@ -106,9 +106,12 @@ export const updateResource = (req, res) => {
 export const deleteResource = (req, res) => {
   const row = db.prepare('SELECT file_name FROM resources WHERE id = ?').get(req.params.id);
   if (!row) throw new HttpError(404, 'Resource not found');
-  const file = path.join(UPLOAD_DIR, row.file_name);
-  if (existsSync(file)) unlinkSync(file);
   db.prepare('DELETE FROM resources WHERE id = ?').run(req.params.id);
+  // a file can be shared by several subjects (bundled notes): delete it only when nobody uses it any more
+  if (!db.prepare('SELECT 1 FROM resources WHERE file_name = ?').get(row.file_name)) {
+    const file = path.join(UPLOAD_DIR, row.file_name);
+    if (existsSync(file)) unlinkSync(file);
+  }
   res.status(204).end();
 };
 

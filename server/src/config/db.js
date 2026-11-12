@@ -6,11 +6,13 @@ import { randomUUID } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { importPyq } from '../services/pyqImport.js';
+import { importNotes } from '../services/notesImport.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const DATA_DIR = path.resolve(here, '../../data');
 export const UPLOAD_DIR = path.join(DATA_DIR, 'uploads');
 const SEED_FILE = path.resolve(here, '../../../database/seed/subjects.json');
+export const NOTES_DIR = path.resolve(here, '../../../database/notes');   // notes PDFs + manifest.json
 export const PYQ_DIR = path.resolve(here, '../../../database/pyq');   // split previous-year papers + manifest.json
 
 mkdirSync(UPLOAD_DIR, { recursive: true });
@@ -84,6 +86,9 @@ if (db.prepare('SELECT COUNT(*) AS n FROM resources').get().n === 0) {
   // existing database: add the merged "Full Previous Years" PDFs if they are not there yet (safe to repeat)
   importPyq({ db, uploadDir: UPLOAD_DIR, pyqDir: PYQ_DIR, mergedOnly: true, log: console.log });
 }
+
+// ---- notes (database/notes): added to every existing subject that has a matching note, once ----
+importNotes({ db, uploadDir: UPLOAD_DIR, notesDir: NOTES_DIR, log: console.log });
 
 // Converts a raw subjects row into an API object (parses the JSON columns).
 export const toSubject = (row) =>
