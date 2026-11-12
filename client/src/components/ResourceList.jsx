@@ -1,4 +1,4 @@
-// Papers (with sorting, likes, download, Ask with AI) or Notes for one subject.
+// Papers or Notes for one subject: sorting, likes, download and Ask with AI work for both.
 import { useCallback, useEffect, useState } from 'react';
 import { api } from '../api';
 import { useAuth } from '../context/AuthContext';
@@ -75,22 +75,22 @@ export default function ResourceList({ subjectId, kind, subject }) {
 
   return (
     <div>
-      {kind === 'paper' && (
+      {(
         <div className="toolbar">
           <label>Sort by
             <select value={sort} onChange={(e) => setSort(e.target.value)}>
               <option value="likes">Most liked</option>
-              <option value="year">Year</option>
+              {kind === 'paper' && <option value="year">Year</option>}
               <option value="newest">Newest upload</option>
             </select>
           </label>
-          <label>Type
+          {kind === 'paper' && <label>Type
             <select value={examType} onChange={(e) => setExamType(e.target.value)}>
               <option value="">All</option>
               <option value="mid">Mid-term</option>
               <option value="end">End-term</option>
             </select>
-          </label>
+          </label>}
         </div>
       )}
 
@@ -143,28 +143,24 @@ export default function ResourceList({ subjectId, kind, subject }) {
             </div>
           </div>
           <div className="resource-actions">
-            {kind === 'paper' && (
-              <button
-                className={`btn btn-like ${item.liked_by_me ? 'liked' : ''}`}
-                disabled={!canLike}
-                title={canLike ? 'Like this paper' : 'Login with Gmail to like'}
-                onClick={() => like(item)}
-              >
-                <span className="heart">{item.liked_by_me ? '♥' : '♡'}</span> {item.likes}
-              </button>
-            )}
+            <button
+              className={`btn btn-like ${item.liked_by_me ? 'liked' : ''}`}
+              disabled={!canLike}
+              title={canLike ? `Like this ${kind === 'paper' ? 'paper' : 'note'}` : 'Login with Gmail to like'}
+              onClick={() => like(item)}
+            >
+              <span className="heart">{item.liked_by_me ? '♥' : '♡'}</span> {item.likes}
+            </button>
             <a className="btn" href={item.download_url} onClick={() => track(item, 'open_paper')}>Download</a>
-            {kind === 'paper' && (
-              <a
-                className="btn btn-primary"
-                href={botLinkForPaper(item, subject)}
-                target="_blank"
-                rel="noreferrer"
-                onClick={() => track(item, 'ask_ai')}
-              >
-                Ask with AI ↗
-              </a>
-            )}
+            <a
+              className="btn btn-primary"
+              href={botLinkForPaper(kind === 'paper' ? item : { ...item, paper_year: 'Notes' }, subject)}
+              target="_blank"
+              rel="noreferrer"
+              onClick={() => track(item, 'ask_ai')}
+            >
+              Ask with AI ↗
+            </a>
             {role === 'teacher' && (
               <>
                 <button className="btn" onClick={() => startEdit(item)}>Edit</button>
@@ -174,8 +170,8 @@ export default function ResourceList({ subjectId, kind, subject }) {
           </div>
         </div>
       )))}
-      {!canLike && kind === 'paper' && role !== 'teacher' && (
-        <p className="muted">Guests can't like papers. Log in with Gmail to like and to save your history.</p>
+      {!canLike && role !== 'teacher' && (
+        <p className="muted">Guests can't like papers or notes. Log in with Gmail to like and to save your history.</p>
       )}
     </div>
   );
