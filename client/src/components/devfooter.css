@@ -1,0 +1,7 @@
+.devfooter { max-width: 1060px; margin: 0 auto; padding: 0 20px 36px; text-align: center; position: relative; }
+.devfooter-line { margin: 0; font-family: var(--font-mono); font-size: .78rem; letter-spacing: .04em; color: var(--muted); }
+.devfooter-heart { color: var(--danger); display: inline-block; animation: dfbeat 1.6s ease-in-out infinite; }
+.devfooter-name, .devfooter-line a { color: var(--text); text-decoration: none; transition: color .2s; }
+.devfooter-line a:hover { color: var(--accent); }
+@keyframes dfbeat { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.25); } }
+@media (prefers-reduced-motion: reduce) { .devfooter-heart { animation: none; } }

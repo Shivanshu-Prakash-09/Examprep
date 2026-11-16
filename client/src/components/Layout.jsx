@@ -3,6 +3,7 @@ import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { BOT_URL } from '../utils/constants';
 import Backdrop from './Backdrop';
+import DevFooter from './DevFooter';
 
 export default function Layout() {
   const { role, email, logout } = useAuth();
@@ -42,6 +43,7 @@ export default function Layout() {
       <main className="container">
         <div className="page" key={location.pathname}><Outlet /></div>
       </main>
+      <DevFooter />
     </>
   );
 }
