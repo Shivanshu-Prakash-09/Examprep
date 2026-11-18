@@ -1,0 +1,142 @@
+[
+ {
+  "branch": "CSE",
+  "year": 4,
+  "semester": 7,
+  "name": "Software Verification, Validation and Testing",
+  "credits": 3,
+  "units": {
+   "I": "Review of Software Engineering: Overview of Software Evolution, Error, Fault, Failure, Incident, Test Cases, Testing Process, Limitations of Testing, SDLC, Testing Process, Terminologies in Testing: Error, Fault, Failure, Verification, Validation, Difference Between Verification and Validation, Test Cases, Testing Suite, Test, Oracles, Impracticality of Testing All Data; Impracticality of Testing All Paths. Verification: Verification Methods, SRS Verification, Source Code Reviews, User Documentation Verification",
+   "II": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause Effect Graphing Technique. Structural Testing: Control Flow Testing, Path Testing, Independent Paths, Generation of Graph from Program, Identification of Independent Paths, Cyclomatic Complexity, Data Flow Testing, Mutation Testing. Regression Testing: What is Regression Testing? Regression Test cases selection, Reducing the number of test cases, Code coverage prioritization technique. Reducing the number of test cases: Prioritization guidelines, Priority category, Scheme, Risk Analysis.",
+   "III": "Object Oriented Testing: Definition, Issues, Class Testing, Object Oriented Integration and System Testing. Testing Web Applications: Web Testing, User Interface Testing, Usability Testing, Security Testing, Performance Testing.",
+   "IV": "Software Testing Activities: Levels of Testing, Debugging, Testing techniques and their applicability, Exploratory Testing. Automated Test Data Generation: Test Data, Approaches to test data generation, test data generation using genetic algorithm, Test Data Generation Tools, Software Testing Tools, and Software test Plan."
+  },
+  "note": "Paper code SE-487T. Textbooks: Yogesh Singh, Software Testing (Cambridge University Press, 2012); K.K. Aggarwal and Yogesh Singh, Software Engineering (New Age International, 2003); Roger S. Pressman, Software Engineering: A Practitioner's Approach (McGraw-Hill)."
+ },
+ {
+  "branch": "IT",
+  "year": 4,
+  "semester": 7,
+  "name": "Software Verification, Validation and Testing",
+  "credits": 3,
+  "units": {
+   "I": "Review of Software Engineering: Overview of Software Evolution, Error, Fault, Failure, Incident, Test Cases, Testing Process, Limitations of Testing, SDLC, Testing Process, Terminologies in Testing: Error, Fault, Failure, Verification, Validation, Difference Between Verification and Validation, Test Cases, Testing Suite, Test, Oracles, Impracticality of Testing All Data; Impracticality of Testing All Paths. Verification: Verification Methods, SRS Verification, Source Code Reviews, User Documentation Verification",
+   "II": "Functional Testing: Boundary Value Analysis, Equivalence Class Testing, Decision Table Based Testing, Cause Effect Graphing Technique. Structural Testing: Control Flow Testing, Path Testing, Independent Paths, Generation of Graph from Program, Identification of Independent Paths, Cyclomatic Complexity, Data Flow Testing, Mutation Testing. Regression Testing: What is Regression Testing? Regression Test cases selection, Reducing the number of test cases, Code coverage prioritization technique. Reducing the number of test cases: Prioritization guidelines, Priority category, Scheme, Risk Analysis.",
+   "III": "Object Oriented Testing: Definition, Issues, Class Testing, Object Oriented Integration and System Testing. Testing Web Applications: Web Testing, User Interface Testing, Usability Testing, Security Testing, Performance Testing.",
+   "IV": "Software Testing Activities: Levels of Testing, Debugging, Testing techniques and their applicability, Exploratory Testing. Automated Test Data Generation: Test Data, Approaches to test data generation, test data generation using genetic algorithm, Test Data Generation Tools, Software Testing Tools, and Software test Plan."
+  },
+  "note": "Paper code SE-487T. Textbooks: Yogesh Singh, Software Testing (Cambridge University Press, 2012); K.K. Aggarwal and Yogesh Singh, Software Engineering (New Age International, 2003); Roger S. Pressman, Software Engineering: A Practitioner's Approach (McGraw-Hill)."
+ },
+ {
+  "branch": "CSE",
+  "year": 4,
+  "semester": 7,
+  "name": "Distributed Systems and Cloud Computing",
+  "credits": 3,
+  "units": {
+   "I": "Introduction to Distributed Systems: Characteristics of Distributed Systems-Introduction, Examples of Distributed systems (Client server, peer to peer, grid and cloud computing), Advantages of distributed systems, System models - Introduction, Architectural and Fundamental models, Networking and Internetworking, Interprocess Communication (message passing and shared memory), Distributed objects and Remote Method Invocation, RPC, Events and notifications, Case study - Java RMI.",
+   "II": "Synchronization: Time and Global States - Introduction, Logical Clocks, Synchronizing physical clocks events and Process states, Synchronizing physical clocks, logical time and logical clocks, global states, distributed debugging. Coordination and Agreement: Distributed mutual exclusion, Elections, Multicast communication, consensus and related problems.",
+   "III": "Distributed File Systems: Introduction - File Models - File accessing, sharing and caching - File Replication - Atomic transactions. Case Study HADOOP. Resource and process management - Task assignment approach - Load balancing approach - Load sharing approach.",
+   "IV": "Cloud Computing, Roots of Cloud Computing, Layers and Types of Clouds, Desired Features of a Cloud, Cloud Infrastructure Management, Infrastructure as a Service, Hardware as a Service, Platform as a Service, Software as a Service, Challenges and Risks. Migrating into a Cloud: Introduction, Broad Approaches to Migrating into the Cloud, The Seven-Step Model of Migration into a Cloud."
+  },
+  "note": "Paper code CIE-407T. Textbooks: Coulouris, Dollimore and Kindberg, Distributed Systems: Concepts and Design (4th ed., Pearson); R. Buyya, Cloud Computing: Principles and Paradigms (Wiley); S. Ghosh, Distributed Systems (CRC Press, 2010)."
+ },
+ {
+  "branch": "IT",
+  "year": 4,
+  "semester": 7,
+  "name": "Distributed Systems and Cloud Computing",
+  "credits": 3,
+  "units": {
+   "I": "Introduction to Distributed Systems: Characteristics of Distributed Systems-Introduction, Examples of Distributed systems (Client server, peer to peer, grid and cloud computing), Advantages of distributed systems, System models - Introduction, Architectural and Fundamental models, Networking and Internetworking, Interprocess Communication (message passing and shared memory), Distributed objects and Remote Method Invocation, RPC, Events and notifications, Case study - Java RMI.",
+   "II": "Synchronization: Time and Global States - Introduction, Logical Clocks, Synchronizing physical clocks events and Process states, Synchronizing physical clocks, logical time and logical clocks, global states, distributed debugging. Coordination and Agreement: Distributed mutual exclusion, Elections, Multicast communication, consensus and related problems.",
+   "III": "Distributed File Systems: Introduction - File Models - File accessing, sharing and caching - File Replication - Atomic transactions. Case Study HADOOP. Resource and process management - Task assignment approach - Load balancing approach - Load sharing approach.",
+   "IV": "Cloud Computing, Roots of Cloud Computing, Layers and Types of Clouds, Desired Features of a Cloud, Cloud Infrastructure Management, Infrastructure as a Service, Hardware as a Service, Platform as a Service, Software as a Service, Challenges and Risks. Migrating into a Cloud: Introduction, Broad Approaches to Migrating into the Cloud, The Seven-Step Model of Migration into a Cloud."
+  },
+  "note": "Paper code CIE-407T. Textbooks: Coulouris, Dollimore and Kindberg, Distributed Systems: Concepts and Design (4th ed., Pearson); R. Buyya, Cloud Computing: Principles and Paradigms (Wiley); S. Ghosh, Distributed Systems (CRC Press, 2010)."
+ },
+ {
+  "branch": "CSE",
+  "year": 4,
+  "semester": 7,
+  "name": "Web Mining",
+  "credits": 3,
+  "units": {
+   "I": "World Wide Web - Data Mining Vs Web Mining - Data Mining Foundations: Association rules and Sequential Patterns - Machine Learning in Data Mining. Web Mining: Web Structure Mining, Web Content Mining, and Web Usage Mining. Web Structure Mining: Web Graph - Extracting pattern from hyperlinks - Mining Document Structure - PageRank.",
+   "II": "Web Content Mining: Text and Web Page Pre-processing - Inverted Indices - Latent Semantic Indexing - Web Spamming - Social Network Analysis - Web Crawlers - Structured Data Extraction - Opinion mining and Sentiment Analysis.",
+   "III": "Web Usage Mining: Data collection and Pre-processing - Data Modelling - Discovery and Analysis of Web Usage - Recommender System and Collaborative Filtering - Query log mining.",
+   "IV": "Web Mining Applications and Other Topics: Data integration for e-commerce, Web personalization and recommender systems, Web content and structure mining, Web data warehousing, Review of tools, applications, and systems."
+  },
+  "note": "Paper code CIE-431T. Textbook: Bing Liu, Web Data Mining: Exploring Hyperlinks, Contents, and Usage Data (Springer, 2007)."
+ },
+ {
+  "branch": "IT",
+  "year": 4,
+  "semester": 7,
+  "name": "Web Mining",
+  "credits": 3,
+  "units": {
+   "I": "World Wide Web - Data Mining Vs Web Mining - Data Mining Foundations: Association rules and Sequential Patterns - Machine Learning in Data Mining. Web Mining: Web Structure Mining, Web Content Mining, and Web Usage Mining. Web Structure Mining: Web Graph - Extracting pattern from hyperlinks - Mining Document Structure - PageRank.",
+   "II": "Web Content Mining: Text and Web Page Pre-processing - Inverted Indices - Latent Semantic Indexing - Web Spamming - Social Network Analysis - Web Crawlers - Structured Data Extraction - Opinion mining and Sentiment Analysis.",
+   "III": "Web Usage Mining: Data collection and Pre-processing - Data Modelling - Discovery and Analysis of Web Usage - Recommender System and Collaborative Filtering - Query log mining.",
+   "IV": "Web Mining Applications and Other Topics: Data integration for e-commerce, Web personalization and recommender systems, Web content and structure mining, Web data warehousing, Review of tools, applications, and systems."
+  },
+  "note": "Paper code CIE-431T. Textbook: Bing Liu, Web Data Mining: Exploring Hyperlinks, Contents, and Usage Data (Springer, 2007)."
+ },
+ {
+  "branch": "CSE",
+  "year": 4,
+  "semester": 7,
+  "name": "Software Engineering Standards",
+  "credits": 4,
+  "units": {
+   "I": "Software Engineering Standards: Scope of Software Engineering Standards, Importance of Software Engineering Standards, Improving the Product, Protecting the Buyer, Protecting the Business, Increasing Professional Discipline, Introducing Technology. History: Makers of Software Engineering Standards, Roles of Software Engineering Standards, Organizational Goals for Using Software Engineering Standards.",
+   "II": "International Electrotechnical Commission (IEC): IEC TC56 - Dependability, Current Collection of IEC TC56, Planned Collection of IEC TC56, Organization of IEC TC56 Collection, Strategic Plans, IEC SC45A - Nuclear Reactor Instrumentation, Current Collection of IEC SC45A, Planned Collection of IEC SC45A, Organization of IEC SC45A Collection, IEC SC65A - Industrial Process Control, Current Collection of IEC SC65A, Planned Collection of IEC SC65A, Organization of IEC SC65A Collection.",
+   "III": "International Organization for Standardization (ISO): ISO TC176 - Quality Management, Current Collection of ISO TC176, Planned Collection of ISO TC176, Organization of ISO TC176 Collection, Strategic Plans ISO/IEC JTC1, ISO/IEC JTC1/SC7 - Software Engineering, Current Collection of JTC1/SC7, Planned Collection of JTC1/SC7, Organization of JTC1/SC7 Collection, Strategic Plans.",
+   "IV": "Quality Systems Standards: ISO 9000-3 and IEEE Std 730, The Proposed Revision of ISO 9000-3, An Alternative: AS 3563.1/IEEE Std 1298, An Alternative: CAN/CSA-Q396. Project Management: Project Management Standards for Software, PMI Guide to the PMBOK, IEEE 1058.1 - Software Project Management Plans, Configuration Management Standards."
+  },
+  "note": "Paper code SE-489. Textbook: James W. Moore, The Road Map to Software Engineering: A Standards-Based Guide."
+ },
+ {
+  "branch": "IT",
+  "year": 4,
+  "semester": 7,
+  "name": "Software Engineering Standards",
+  "credits": 4,
+  "units": {
+   "I": "Software Engineering Standards: Scope of Software Engineering Standards, Importance of Software Engineering Standards, Improving the Product, Protecting the Buyer, Protecting the Business, Increasing Professional Discipline, Introducing Technology. History: Makers of Software Engineering Standards, Roles of Software Engineering Standards, Organizational Goals for Using Software Engineering Standards.",
+   "II": "International Electrotechnical Commission (IEC): IEC TC56 - Dependability, Current Collection of IEC TC56, Planned Collection of IEC TC56, Organization of IEC TC56 Collection, Strategic Plans, IEC SC45A - Nuclear Reactor Instrumentation, Current Collection of IEC SC45A, Planned Collection of IEC SC45A, Organization of IEC SC45A Collection, IEC SC65A - Industrial Process Control, Current Collection of IEC SC65A, Planned Collection of IEC SC65A, Organization of IEC SC65A Collection.",
+   "III": "International Organization for Standardization (ISO): ISO TC176 - Quality Management, Current Collection of ISO TC176, Planned Collection of ISO TC176, Organization of ISO TC176 Collection, Strategic Plans ISO/IEC JTC1, ISO/IEC JTC1/SC7 - Software Engineering, Current Collection of JTC1/SC7, Planned Collection of JTC1/SC7, Organization of JTC1/SC7 Collection, Strategic Plans.",
+   "IV": "Quality Systems Standards: ISO 9000-3 and IEEE Std 730, The Proposed Revision of ISO 9000-3, An Alternative: AS 3563.1/IEEE Std 1298, An Alternative: CAN/CSA-Q396. Project Management: Project Management Standards for Software, PMI Guide to the PMBOK, IEEE 1058.1 - Software Project Management Plans, Configuration Management Standards."
+  },
+  "note": "Paper code SE-489. Textbook: James W. Moore, The Road Map to Software Engineering: A Standards-Based Guide."
+ },
+ {
+  "branch": "CSE",
+  "year": 4,
+  "semester": 7,
+  "name": "Mining Software Repositories and Predictive Modelling",
+  "credits": 3,
+  "units": {
+   "I": "Introduction: Software Testing and Quality Assurance, Program Modelling Software Testing, Fundamentals of Data mining, Data mining for Software Engineering, Software Maintenance, Static Code Analysis, Software Metrics, Lines of Code, Nesting Level, Cyclomatic complexity, Module Dependencies, Object Oriented Metrics.",
+   "II": "Version Control: Introduction to Version Control, Types of Version Control. Git: Fundamentals of Git, Git Workflow, Git Setup Basics, Remote Git Repository, Operations on Git Repositories, Adding Collaborators to Git, Git Local Repository to Remote Repository. Mining Software Repositories: Coupled Change Analysis, Commit Analysis, Documentation Analysis. Software Analytics-I: Software Maps, Exploring System Implementations, Discovering Error-Prone Code, Monitor Technical Debts.",
+   "III": "Software Analytics-II: Involvement and Knowledge Distribution, Refactoring Planning, Monitoring Redesign Processes. Techniques: Tracing, TraceViews, Code Usage & Test Coverage, Software Effectiveness, Prescriptive Software Analytics. Visual tools for Software Analytics: Treemaps, 2.5D Treemaps, Hierarchical Circular Bundle Views.",
+   "IV": "Fundamentals of Predictive Modelling, Applications of Predictive Modelling. Predictive Modelling Techniques: Linear regression, Decision trees, K-means clustering, Deep neural networks. Limitations of Predictive Modelling. Predictive Modelling workflow, Evaluation metrics for Predictive Models, Deep Learning based Defect Prediction, Cross Project defect Prediction, Just-in-Time defect prediction, Failure Prediction."
+  },
+  "note": ""
+ },
+ {
+  "branch": "IT",
+  "year": 4,
+  "semester": 7,
+  "name": "Mining Software Repositories and Predictive Modelling",
+  "credits": 3,
+  "units": {
+   "I": "Introduction: Software Testing and Quality Assurance, Program Modelling Software Testing, Fundamentals of Data mining, Data mining for Software Engineering, Software Maintenance, Static Code Analysis, Software Metrics, Lines of Code, Nesting Level, Cyclomatic complexity, Module Dependencies, Object Oriented Metrics.",
+   "II": "Version Control: Introduction to Version Control, Types of Version Control. Git: Fundamentals of Git, Git Workflow, Git Setup Basics, Remote Git Repository, Operations on Git Repositories, Adding Collaborators to Git, Git Local Repository to Remote Repository. Mining Software Repositories: Coupled Change Analysis, Commit Analysis, Documentation Analysis. Software Analytics-I: Software Maps, Exploring System Implementations, Discovering Error-Prone Code, Monitor Technical Debts.",
+   "III": "Software Analytics-II: Involvement and Knowledge Distribution, Refactoring Planning, Monitoring Redesign Processes. Techniques: Tracing, TraceViews, Code Usage & Test Coverage, Software Effectiveness, Prescriptive Software Analytics. Visual tools for Software Analytics: Treemaps, 2.5D Treemaps, Hierarchical Circular Bundle Views.",
+   "IV": "Fundamentals of Predictive Modelling, Applications of Predictive Modelling. Predictive Modelling Techniques: Linear regression, Decision trees, K-means clustering, Deep neural networks. Limitations of Predictive Modelling. Predictive Modelling workflow, Evaluation metrics for Predictive Models, Deep Learning based Defect Prediction, Cross Project defect Prediction, Just-in-Time defect prediction, Failure Prediction."
+  },
+  "note": ""
+ }
+]

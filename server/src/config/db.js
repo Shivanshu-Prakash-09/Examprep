@@ -7,6 +7,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { importPyq } from '../services/pyqImport.js';
 import { importNotes } from '../services/notesImport.js';
+import { addExtraSubjects } from '../services/extraSubjects.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 export const DATA_DIR = path.resolve(here, '../../data');
@@ -78,6 +79,9 @@ if (n === 0 && existsSync(SEED_FILE)) {
   db.exec('COMMIT');
   console.log(`[db] First run: loaded ${subjects.length} subjects from the syllabus data.`);
 }
+
+// ---- extra subjects (database/seed/extra_subjects.json): added once each, also to an existing database ----
+addExtraSubjects({ db, file: path.resolve(here, '../../../database/seed/extra_subjects.json'), log: console.log });
 
 // ---- first-run previous-year papers (database/pyq) ----
 if (db.prepare('SELECT COUNT(*) AS n FROM resources').get().n === 0) {
