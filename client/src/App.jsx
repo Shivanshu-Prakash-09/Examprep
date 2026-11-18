@@ -4,6 +4,7 @@ import Layout from './components/Layout';
 import RequireRole from './components/RequireRole';
 import AdminPage from './pages/AdminPage';
 import BrowsePage from './pages/BrowsePage';
+import ContributorsPage from './pages/ContributorsPage';
 import HistoryPage from './pages/HistoryPage';
 import LoginPage from './pages/LoginPage';
 import StudentLoginPage from './pages/StudentLoginPage';
@@ -16,6 +17,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route path="/" element={<LoginPage />} />                       {/* Slide -1 */}
         <Route path="/student" element={<StudentLoginPage />} />         {/* Slide 2B */}
+        <Route path="/contributors" element={<ContributorsPage />} />
 
         <Route element={<RequireRole roles={['student', 'guest', 'teacher']} />}>
           <Route path="/browse" element={<BrowsePage />} />              {/* Slide 3B */}
